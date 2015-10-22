@@ -1,8 +1,8 @@
 body{
-			/*margin: -25px 420px 15px 420px;*/
-	width: 554px; /* Ширина элемента в пикселах */
-    padding: 10px; /* Поля вокруг текста */
-    margin: auto; /* Выравниваем по центру */
+			
+	width: 554px; 
+    padding: 10px; 
+    margin: auto; 
    
 		}
 		img{
