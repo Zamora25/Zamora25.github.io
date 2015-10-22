@@ -1,25 +1,12 @@
-body{
-			
-	width: 554px; 
-    padding: 10px; 
-    margin: auto; 
-   
-		}
-		img{
+  .avatar{
 	height: 149px;
 	width: 203px;
 	margin: -9px 10px -11px 138px;
+}
 
-		.block1{
-			height: 36px;
-			width: 237px;
-		}
-		.block2{
-			height: 45px;
-			width: 200px;
-        }
-        .block3{
-        	
-        	background-position: center;
-        	height: 20px;
-        }
+ .tel{
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+ 
