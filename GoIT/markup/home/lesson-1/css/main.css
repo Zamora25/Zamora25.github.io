@@ -1,15 +1,34 @@
+  body{
+  	width: 554px; 
+    padding: 5px; 
+    margin: auto;    
+
+}
+  
+}
   div{
-  	margin:auto;
-  }
+  	height: 600px;
+  	width: 846px;
+
+}
+
   .avatar{
 	height: 149px;
 	width: 203px;
-	margin: -9px 10px -11px 138px;
+	display: block; margin: 0 auto;
 }
-  .tel{
-  	text-decoration: underline;
-  }
-
+  h1{
+  	text-align: center;
+}
 
 
  
+
+ 
+
+ 
+
+
+	
+ 
+
