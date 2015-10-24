@@ -1,24 +1,21 @@
   body{
-  	width: 554px; 
-    padding: 5px; 
-    margin: auto; 
-    background-color: gray;   
-
+  width: 554px; 
+  padding: 5px; 
+  margin: auto; 
+  background-color: gray;   
 }
 
   div{
-  	height: 600px;
-  	width: 846px;
-    background-color: white;
-    padding: 10px;
-
-
+  height: 600px;
+  width: 846px;
+  background-color: white;
+  padding: 10px;
 }
 
   .avatar{
-	height: 149px;
-	width: 203px;
-	display: block; margin: 0 auto;
+  height: 149px;
+  width: 203px;
+  display: block; margin: 0 auto;
 }
 
   h1{
