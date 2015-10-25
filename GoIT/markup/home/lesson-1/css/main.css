@@ -1,13 +1,12 @@
   body{
-  width: 554px; 
+  width: 600px; 
+  height: 846px;
   padding: 5px; 
   margin: auto; 
   background-color: gray;   
 }
 
   div{
-  height: 600px;
-  width: 846px;
   background-color: white;
   padding: 10px;
 }
