@@ -28,7 +28,7 @@
 		margin-left: 62px;
 	}
 
-	.button {
+	.button1 {
 		background-color: #454545;
 		border-right: 2px solid #838383;
 		border-left: 2px solid #838383;
@@ -48,12 +48,18 @@
 		color: #656363;	
 	}
 
-
-	span {
-		padding-left: 25px;
-		color: #2c2c2c;
-
+ 	span {
+ 		color: #2c2c2c;
+ 	}
+	.button2 {
+		background: #f9f9f9;
 	}
+
+	.button2 a{
+		padding-left: 25px;
+		
+	}
+
 
 	img {
 		float: right;
