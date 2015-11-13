@@ -126,16 +126,36 @@
 		padding-right: 10px;
 	}
 
+	.triangle img {
+		width: 7px;
+		height: 8px;
+		padding-left: 7px;
+	}
+
 	.information {
 		float: left;
 		width: 20%;
+		height: 400px;
+		margin-top: -9px;
+		padding-top: 10px;
+		border-right: 2px solid #c7cacf;
 		text-align: center;
+		background-color: #edeef0;
+	}
+
+	.line {
+		margin-top: 100px;
+
 	}
 
 	.news {
 		float: right;
 		width: 20%;
 		text-align: center;
+		margin-top: -9px;
+		padding-top: 10px;
+		border-left: 2px solid #c7cacf;
+		background-color: #edeef0;
 	}
 
 	.content:after {
@@ -151,5 +171,9 @@
 	}
 
 	h2 {
+		text-align: center;
+	}
+
+	footer {
 		text-align: center;
 	}
