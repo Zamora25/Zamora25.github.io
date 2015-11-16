@@ -135,12 +135,13 @@
 	.information {
 		float: left;
 		width: 20%;
-		height: 400px;
 		margin-top: -9px;
 		padding-top: 10px;
 		border-right: 2px solid #c7cacf;
 		text-align: center;
 		background-color: #edeef0;
+		padding-bottom: 20000px;
+		margin-bottom: -20000px;
 	}
 
 
@@ -152,6 +153,8 @@
 		padding-top: 10px;
 		border-left: 2px solid #c7cacf;
 		background-color: #edeef0;
+		padding-bottom: 20000px;
+		margin-bottom: -20000px;
 	}
 
 	.content:after {
