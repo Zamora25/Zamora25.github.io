@@ -157,13 +157,13 @@
 		margin-bottom: -20000px;
 	}
 
-	.content:after {
-		content: ".";
-		display: block;
-		height: 0;
-		visibility: hidden;
-		clear: both;
-	}
+	/*.content:after {*/
+	/*	content: ".";*/
+	/*	display: block;*/
+	/*	height: 0;*/
+	/*	visibility: hidden;*/
+	/*	clear: both;*/
+	/*}*/
 
 	.content {
 		background-color: #ffffff;
