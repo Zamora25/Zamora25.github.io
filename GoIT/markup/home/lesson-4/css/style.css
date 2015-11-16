@@ -133,7 +133,7 @@
 
 	.information {
 		float: left;
-		width: 20%;
+		width: 18%;
 		margin-top: -9px;
 		padding-top: 10px;
 		border-right: 2px solid #c7cacf;
@@ -146,7 +146,7 @@
 
 	.news {
 		float: right;
-		width: 20%;
+		width: 18%;
 		text-align: center;
 		margin-top: -9px;
 		padding-top: 10px;
