@@ -147,7 +147,6 @@
 	.centre {
 		float: left;
 		width: 60%;
-		content: "."
 		margin-top: -9px;
 		padding-top: 10px;
 		text-align: center;
@@ -157,7 +156,7 @@
 	}
 
 	.news {
-		float: left;
+		float: right;
 		width: 20%;
 		text-align: center;
 		margin-top: -9px;
