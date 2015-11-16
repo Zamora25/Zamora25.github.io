@@ -135,7 +135,7 @@
 	.information {
 		float: left;
 		width: 20%;
-		/*margin-top: -9px;*/
+		margin-top: -9px;
 		padding-top: 10px;
 		border-right: 2px solid #c7cacf;
 		text-align: center;
@@ -149,7 +149,7 @@
 		float: right;
 		width: 20%;
 		text-align: center;
-		/*margin-top: -9px;*/
+		margin-top: -9px;
 		padding-top: 10px;
 		border-left: 2px solid #c7cacf;
 		background-color: #edeef0;
