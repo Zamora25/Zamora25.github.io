@@ -144,16 +144,16 @@
 		margin-bottom: -20000px;
 	}
 
-	.centre {
-		float: left;
-		width: 60%;
-		margin-top: -9px;
-		padding-top: 10px;
-		text-align: center;
-		background-color: white;
-		padding-bottom: 20000px;
-		margin-bottom: -20000px;
-	}
+	/*.centre {*/
+	/*	float: left;*/
+	/*	width: 60%;*/
+	/*	margin-top: -9px;*/
+	/*	padding-top: 10px;*/
+	/*	text-align: center;*/
+	/*	background-color: white;*/
+	/*	padding-bottom: 20000px;*/
+	/*	margin-bottom: -20000px;*/
+	/*}*/
 
 	.news {
 		float: right;
