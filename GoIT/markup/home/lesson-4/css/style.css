@@ -138,7 +138,7 @@
 		margin-top: -9px;
 		padding-top: 10px;
 		border-right: 2px solid #c7cacf;
-		text-align: center;
+		/*text-align: center;*/
 		background-color: #edeef0;
 		padding-bottom: 20000px;
 		margin-bottom: -20000px;
@@ -148,7 +148,7 @@
 	.news {
 		float: right;
 		width: 20%;
-		text-align: center;
+		/*text-align: center;*/
 		margin-top: -9px;
 		padding-top: 10px;
 		border-left: 2px solid #c7cacf;
