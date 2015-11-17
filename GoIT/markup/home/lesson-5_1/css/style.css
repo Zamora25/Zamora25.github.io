@@ -29,16 +29,19 @@
 	.menu li a {
 		text-decoration: none;
 		color: #5aaee6;
-		padding: 5px 5px 5px 5px;
+		/*padding: 5px 5px 5px 5px;*/
+	}
+
+	.menu li:hover {
+		background: #4eabda;
 	}
 
 	.menu li a:hover {
-		background: #4eabda;
 		color: #ffffff;
 	}
 
 	.flag img{
-		padding-top: 2px;
+		margin-top: 2px;
 	}
 
 	.wrapper img {
@@ -94,6 +97,7 @@
 	.checkbox {
 		padding-left: 141px;
 		padding-top: 10px;
+		color: #ffffff;
 	}
 
 	.submit input{
@@ -112,6 +116,7 @@
 		line-height: 25px;
 		margin-left: 70px;
 		margin-top: 10px;
+		color: #ffffff;
 	}
 	
 
