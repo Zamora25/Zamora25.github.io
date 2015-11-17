@@ -1,0 +1,124 @@
+	* {
+	margin: 0;
+	padding: 0;
+	}
+
+	body {
+		width: 1200x;
+	}
+
+
+	.menu {
+		float: right;
+		width: 100%;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		background-image: url(../img/for_menu.jpg);
+		}
+
+	.menu li {
+		float: right;
+		list-style: none;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 15px;
+		padding-left: 15px;
+
+	}
+
+	.menu li a {
+		text-decoration: none;
+		color: #5aaee6;
+		padding: 5px 5px 5px 5px;
+	}
+
+	.menu li a:hover {
+		background: #4eabda;
+		color: #ffffff;
+	}
+
+	.flag img{
+		padding-top: 2px;
+	}
+
+	.wrapper img {
+		width: 100%;
+		margin-top: -5px;
+		position: relative;
+	}
+
+	form {
+		position: absolute;
+		left: 30%;
+		top: 15%;
+		background: #4a4d44;
+		width: 560px;
+		height: 530px;
+	}
+
+	form p {
+		text-align: center;
+		line-height: 60px;
+	}
+
+	.facebook img {
+		text-align: center;
+		margin-top: 40px;
+		width: 278px;
+		height: 33px;
+		border-radius: 7px;
+		margin-left: 139px;
+	}
+
+	.form li {
+		text-align: center;
+		margin-top: 5px;
+		list-style-type: none;
+	}
+
+	li input {
+		width: 258px;
+		height: 33px;
+		margin-top: 10px;
+		background-color: #0e0e0e;
+		border: none;
+		border-bottom: 3px solid #484847;
+		padding-left: 20px;
+	}
+
+	li input:hover {
+		background: #1b5288;
+		box-shadow: 0px 0px 13px 6px rgba(75,135,177,1);
+	}
+
+	.checkbox {
+		padding-left: 141px;
+		padding-top: 10px;
+	}
+
+	.submit input{
+		width: 150px;
+		height: 33px;
+		border-radius: 3px;
+		margin-top: 10px;
+		margin-left: 205px;
+		background: #449dd4;
+		border: none;
+		color: #ffffff;
+	}
+
+	.policy p{
+		width: 420px;
+		line-height: 25px;
+		margin-left: 70px;
+		margin-top: 10px;
+	}
+	
+
+
+
+
+
+	
+
+
