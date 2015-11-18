@@ -45,6 +45,12 @@
 		height: 15px;
 		padding-right: 9px;
 	}
+	
+	.Minhas li {
+		border: none;
+		border-left: 1px solid #4eabda;
+		
+	}
 
 	.wrapper img {
 		width: 100%;
