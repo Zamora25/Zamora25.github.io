@@ -41,7 +41,8 @@
 	}
 
 	.flag img{
-		margin-top: 2px;
+		width: 5px;
+		height: 5px;
 	}
 
 	.wrapper img {
