@@ -48,8 +48,11 @@
 	
 	.Minhas {
 		border: none;
-		border-left: 1px solid #4eabda;
-		
+		border-left: 2px solid #4eabda;
+	}
+	
+	.ols span {
+		text-decoration: underline;
 	}
 
 	.wrapper img {
