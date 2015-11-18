@@ -14,7 +14,6 @@
     font-style: normal;
 	}
 
-
 	body {
 		width: 1200x;
 	}
@@ -42,7 +41,6 @@
 		text-decoration: none;
 		color: #5aaee6;
 		font-family: 'Helvetica Neue';
-		/*padding: 5px 5px 5px 5px;*/
 	}
 
 	.menu li:hover {
