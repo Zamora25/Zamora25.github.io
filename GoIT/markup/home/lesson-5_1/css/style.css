@@ -3,6 +3,18 @@
 	padding: 0;
 	}
 
+	@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneue-thin1-webfont.eot');
+    src: url('fonts/helveticaneue-thin1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneue-thin1-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin1-webfont.woff') format('woff'),
+         url('fonts/helveticaneue-thin1-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+
 	body {
 		width: 1200x;
 	}
@@ -29,6 +41,7 @@
 	.menu li a {
 		text-decoration: none;
 		color: #5aaee6;
+		font-family: 'Helvetica Neue';
 		/*padding: 5px 5px 5px 5px;*/
 	}
 
@@ -50,6 +63,9 @@
 		border: none;
 		border-left: 2px solid #4eabda;
 	}
+	.Minhas span {
+		color: #ffffff;
+	}
 	
 	.ola span {
 		text-decoration: underline;
@@ -61,19 +77,21 @@
 		position: relative;
 	}
 
+
 	form {
 		position: absolute;
 		left: 30%;
 		top: 15%;
 		/*background: #4a4d44;*/
 		width: 560px;
-		height: 530px;
-		background: rgba( 255, 0, 0, 0.5);
+		height: 573px;
+		background: rgba( 16, 15, 15, 0.65);
 	}
 
 	form p {
 		text-align: center;
 		line-height: 60px;
+		color: #ffffff;
 	}
 
 	.facebook img {
@@ -84,6 +102,13 @@
 		border-radius: 7px;
 		margin-left: 139px;
 	}
+
+	.line img {
+		width: 278px;
+		margin-left: 139px;
+		margin-top: 20px;
+	}
+		
 
 	.form li {
 		text-align: center;
@@ -129,6 +154,7 @@
 		margin-left: 70px;
 		margin-top: 10px;
 		color: #ffffff;
+		font-family: 'Helvetica Neue';
 	}
 	
 
