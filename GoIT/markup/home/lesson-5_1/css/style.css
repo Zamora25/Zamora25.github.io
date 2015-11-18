@@ -65,9 +65,10 @@
 		position: absolute;
 		left: 30%;
 		top: 15%;
-		background: #4a4d44;
+		/*background: #4a4d44;*/
 		width: 560px;
 		height: 530px;
+		background: rgba( 255, 0, 0, 0.5);
 	}
 
 	form p {
