@@ -15,4 +15,16 @@ td {
    border-top: none;
 }
 
+.yellow_centre {
+  border-bottom: none;
+  border-top: none;
+}
+
+.yellow_centre1 {
+  border-bottom: none;
+}
+
+.yellow_centre2 {
+  border-top: none;
+}
 
