@@ -2,9 +2,8 @@ td {
   border: 1px solid #000;
 }
 
-.red {
+.red tr {
   border-bottom: none;
-  border-top: none;
 }
 
 
