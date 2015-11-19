@@ -1,3 +1,7 @@
 td {
   border: 1px solid #000;
 }
+
+.red {
+  border-bottom: none;
+}
