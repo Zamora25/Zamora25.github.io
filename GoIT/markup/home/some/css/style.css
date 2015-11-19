@@ -2,6 +2,10 @@ td {
   border: 1px solid #000;
 }
 
-.red {
+.red1 {
   border-bottom: none;
+}
+
+.red2 {
+  border-top: none;
 }
