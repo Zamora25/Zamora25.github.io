@@ -21,14 +21,17 @@ td {
 .yellow_centre {
   border-bottom: none;
   border-top: none;
+  background: #FFD700;
 }
 
 .yellow_centre1 {
   border-bottom: none;
+  background: #FFD700;
 }
 
 .yellow_centre2 {
   border-top: none;
+  background: #FFD700;
 }
 
 .white_top1 {
@@ -55,11 +58,13 @@ td {
   border-bottom: none;
   border-top: none;
   border-right: none;
+  background: #FFD700;
 }
 
 .yellow_top2 {
   border-top: none;
   border-right: none;
+  background: #FFD700;
 }
 
 .white_left {
@@ -68,6 +73,7 @@ td {
 
 .yellow_centre1, .yellow_centre, .yellow_centre2 {
   border-right: none;
+  background: #FFD700;
 }
 
 .white_right {
@@ -95,17 +101,20 @@ td {
 .blue1 {
    border-bottom: none;
    border-right: none;
+   background: #0000CD;
 }
 
 .blue2 {
   border-bottom: none;
   border-top: none;
   border-right: none;
+  background: #0000CD;
 }
 
 .blue3 {
   border-top: none;
   border-right: none;
+  background: #0000CD;
 }
 
 .white_bottom1 {
@@ -125,5 +134,10 @@ td {
 .yellow_left {
   border-bottom: none;
   border-left: none;
+  background: #FFD700;
+}
+
+.black {
+   background: #000000;
 }
 
