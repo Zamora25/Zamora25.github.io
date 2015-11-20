@@ -67,4 +67,17 @@ td {
   border-right: none;
 }
 
+.white_right {
+  border-right: none;
+}
+
+.white_right1 {
+   border-bottom: none;
+   border-right: none;
+}
+
+.white_right2 {
+  border-right: none;
+  border-top: none;
+}
 
