@@ -28,3 +28,36 @@ td {
   border-top: none;
 }
 
+.white_top1 {
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+}
+
+.white_top2 {
+  border-top: none;
+  border-left: none;
+}
+
+.white_top2 {
+  border-bottom: none;
+  border-top: none;
+}
+
+.white_top4 {
+  border-top: none;
+}
+
+.yellow_top1 {
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}
+
+.yellow_top2 {
+  border-top: none;
+  border-right: none;
+}
+
+
+
