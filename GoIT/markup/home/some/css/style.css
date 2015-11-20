@@ -1,5 +1,5 @@
 td {
-  border: 1px solid #000;
+  border: 5px solid #000;
 }
 
 .red {
@@ -9,6 +9,7 @@ td {
 
 .red1 {
   border-bottom: none;
+  background: #FF0000;
   }
 
 .red2 {
@@ -116,6 +117,7 @@ td {
 
 .white_bottom3 {
   border-bottom: none;
+  border-right: none;
 }
 
 .yellow_left {
