@@ -91,15 +91,18 @@ td {
 
 .blue1 {
    border-bottom: none;
+   border-right: none;
 }
 
 .blue2 {
   border-bottom: none;
   border-top: none;
+  border-right: none;
 }
 
 .blue3 {
   border-top: none;
+  border-right: none;
 }
 
 .white_bottom1 {
