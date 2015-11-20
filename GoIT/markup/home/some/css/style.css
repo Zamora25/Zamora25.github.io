@@ -59,5 +59,12 @@ td {
   border-right: none;
 }
 
+.white_left {
+  border-left: none;
+}
+
+.yellow_centre1, .yellow_centre, .yellow_centre2 {
+  border-right: none;
+}
 
 
