@@ -39,6 +39,11 @@ td {
   border-left: none;
 }
 
+.white_top3 {
+  border-top: none;
+  border-bottom: none;
+}
+
 .white_top4 {
   border-top: none;
 }
