@@ -110,4 +110,8 @@ td {
   border-bottom: none;
 }
 
+.yellow_left {
+  border-bottom: none;
+  border-left: none;
+}
 
