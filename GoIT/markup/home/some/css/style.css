@@ -81,3 +81,38 @@ td {
   border-top: none;
 }
 
+.white_inside1, .white_right3 {
+  border-bottom: none;
+}
+
+..white_inside2, .white_right4 {
+  border-top: none;
+}
+
+.blue1 {
+   border-bottom: none;
+}
+
+.blue2 {
+  border-bottom: none;
+  border-top: none;
+}
+
+.blue3 {
+  border-top: none;
+}
+
+.white_bottom1 {
+  border-bottom: none;
+}
+
+.white_bottom2 {
+   border-bottom: none;
+   border-top: none;
+}
+
+.white_bottom3 {
+  border-bottom: none;
+}
+
+
