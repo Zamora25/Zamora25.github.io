@@ -71,7 +71,7 @@
 		border-radius: 2px;
 	}
 
-	.left_sircle {
+	.sircle {
 		width: 148px;
 		border: 1px solid #79878d;
 		border-radius: 3px;
@@ -91,6 +91,36 @@
 		text-align: center;
 	}
 
+	.rightColumn {
+		float: left;
+		width: 22%;
+		padding-bottom: 20000px;
+		margin-bottom: -20000px;
+	}
+
+	.brands {
+		width: 181px;
+		border: 1px solid #79878d;
+		border-radius: 2px;
+	}
+
+	.BrandsLogo {
+		text-align: center;
+	}
+
+	footer {
+		width: 906px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.menuBottom li {
+		float: left;
+	}
+
+	.menuBottom li a {
+	text-align: center;
+	}
 
 
 
