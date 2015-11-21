@@ -1,0 +1,144 @@
+	* {
+	margin: 0;
+	padding: 0;
+	}
+
+	body {
+		width: 908px;
+		margin: auto;
+	}
+
+	header {
+		background: #ffffff;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.telefone {
+		float: left;
+		width: 26%
+	}
+
+	form {
+		float: left;
+		width: 67%
+	}
+
+	.post {
+		float: left;
+	}
+
+	.avatar img {
+		width: 100%
+	}
+
+	nav {
+		position: relative;
+		overflow: hidden;
+		background: #17191b;
+	}
+
+
+	.menu li {
+		float: left;
+	}
+
+	.menu a {
+		color: #a2acb0;
+	}
+
+	.koshyk {
+		float: right;
+		color: #a2acb0;
+	}
+
+	.content {
+		width: 100%;
+		/*position: relative;*/
+		overflow: hidden;
+	}
+
+	.leftColumn {
+		float: left;
+		width: 20%;
+		padding-bottom: 20000px;
+		margin-bottom: -20000px;
+	}
+	
+	.catalog {
+		width: 181px;
+		border: 1px solid #79878d;
+		border-radius: 2px;
+	}
+
+	.left_sircle {
+		width: 148px;
+		border: 1px solid #79878d;
+		border-radius: 3px;
+	}
+
+	.centrumColumn {
+		float: left;
+		width: 58%;
+		padding-bottom: 20000px;
+		margin-bottom: -20000px;
+		background-image: url(../img/background.jpg);
+	}
+
+	figure {
+		display: block;
+		float: left;
+		text-align: center;
+	}
+
+
+
+
+
+	/*.content {
+		position: relative;
+		overflow: hidden;
+	}*/
+
+	/*.findPoAvto {
+		float: left;
+		position: relative;
+		width: 45%;
+		color: #154467;
+		text-align: center;
+	}
+
+	.disks {
+		float: left;
+		width: 50%;
+		text-align: left;
+	}
+	
+	.CarBrand, .ModelCar, .complement {
+		width: 85px;
+	}
+
+	.disks p {
+		font-size: 6px;
+	}
+
+	.YearMade {
+		width: 57px;
+	}
+
+	.tire {
+		float: right;
+		width: 50%;
+	}
+
+	.tire p {
+		font-size: 6px;
+	}
+
+	.SearchTires {
+		float: left;
+		width: 20%;
+		position: relative;
+
+	}
+*/
