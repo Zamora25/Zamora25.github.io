@@ -16,7 +16,9 @@
 
 	.telefone {
 		float: left;
-		width: 26%
+		width: 26%;
+		color: #5e696d;
+		font-size: 12px;
 	}
 
 	form {
@@ -24,27 +26,71 @@
 		width: 67%
 	}
 
+	.action1 {
+		background: #0d365a;
+		border-radius: 2px;
+		color: #d3d9de;
+		padding-bottom: 2px;
+	}
+
+	.login input {
+		padding-left: 2px;
+		border-radius: 2px;
+	}
+
+	.password input {
+		border-radius: 2px;
+		padding-left: 2px;
+	}
+
+	.in {
+		border-right: 2px solid #d3d9de;
+		padding-right: 1px;
+	}
+
+	.forgotParol {
+		text-decoration: underline;
+	}
+
 	.post {
 		float: left;
+		padding-left: 2px;
 	}
 
 	.avatar img {
-		width: 100%
+		width: 100%;
+		margin-top: 5px;
 	}
 
 	nav {
 		position: relative;
 		overflow: hidden;
 		background: #17191b;
+		margin-top: 9px;
+		border-radius: 5px;
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 
+	.menu {
+		padding-left: 40px;
+	}
 
 	.menu li {
 		float: left;
+		list-style-type: none;
+		padding-left: 5px;
 	}
 
 	.menu a {
 		color: #a2acb0;
+		text-decoration: none;
+	}
+
+	.menu li a:hover {
+		background-color: #164e70;
+		border-radius: 7px;
+		padding: 5px 2px 5px 2px;
 	}
 
 	.koshyk {
@@ -52,10 +98,15 @@
 		color: #a2acb0;
 	}
 
+	.koshyk span {
+		padding-right: 5px;
+	}
+
 	.content {
 		width: 100%;
 		/*position: relative;*/
 		overflow: hidden;
+		margin-top: 100px;
 	}
 
 	.leftColumn {
@@ -69,6 +120,11 @@
 		width: 181px;
 		border: 1px solid #79878d;
 		border-radius: 2px;
+	}
+
+	.catalog span {
+		text-transform: uppercase;
+		font-size: 13px;
 	}
 
 	.sircle {
@@ -112,15 +168,27 @@
 		width: 906px;
 		position: relative;
 		overflow: hidden;
+		background: #213a4d;
+		height: 70px;
+	}
+
+	.submit {
+		background-color: #0e3a5e;
+		color: #e5e9ea; 
+	}
+
+	.menuBottom{
+		float: left;
+		width: 100%;
 	}
 
 	.menuBottom li {
 		float: left;
+		list-style-type: none;
+		position: relative;
+		left: 30%;
 	}
 
-	.menuBottom li a {
-	text-align: center;
-	}
 
 
 
