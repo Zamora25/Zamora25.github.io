@@ -138,6 +138,11 @@
 		border: 1px solid #79878d;
 		border-radius: 3px;
 	}
+	
+	.sircle img {
+		padding-left: 2px;
+		padding-top: 2px;
+	}
 
 	.centrumColumn {
 		float: left;
