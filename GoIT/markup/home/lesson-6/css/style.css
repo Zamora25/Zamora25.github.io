@@ -191,6 +191,11 @@
 		color: #e5e9ea; 
 	}
 
+	footer {
+		position: relative;
+		overflow: hidden;
+	}
+	
 	.menuBottom{
 		float: left;
 		width: 100%;
@@ -199,9 +204,15 @@
 	.menuBottom li {
 		float: left;
 		list-style-type: none;
-		position: relative;
+		/*position: relative;*/
 		left: 30%;
 	}
+	
+	.copyright {
+		float: left;
+	}
+	
+	
 
 
 
