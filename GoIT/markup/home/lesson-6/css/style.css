@@ -141,7 +141,10 @@
 	
 	.sircle img {
 		padding-left: 2px;
-		padding-top: 2px;
+	}
+	
+	.sircle h4 {
+		padding-bottom: 2px;
 	}
 
 	.centrumColumn {
