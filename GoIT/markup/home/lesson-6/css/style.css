@@ -4,7 +4,7 @@
 	}
 
 	body {
-		width: 908px;
+		width: 1005px;
 		margin: auto;
 		background: #DCDCDC;
 	}
@@ -18,35 +18,66 @@
 		background: #ffffff;
 		position: relative;
 		overflow: hidden;
+		margin-top: 15px;
+		padding-left: 36px;
 	}
 
 	.telefone {
 		float: left;
-		width: 26%;
-		color: #5e696d;
-		font-size: 12px;
+		width: 33%;
+		padding-top: 4px;
 	}
+
+	.telnumber {
+		padding-left: 4px;
+	}
+
+	.number {
+		color: #5e696d;
+	}
+
 
 	form {
 		float: left;
-		width: 67%
+		width: 495px;
+		height: 20px;
 	}
 
 	.action1 {
 		background: #0d365a;
 		border-radius: 2px;
 		color: #d3d9de;
-		padding-bottom: 2px;
+		padding-bottom: 6px;
+	}
+
+	.action1 img {
+		padding-left: 6px;
+		padding-top: 5px;
+	}
+
+	.action1 input {
+		padding-top: 6px;
+		margin-bottom: 15px;
 	}
 
 	.login input {
-		padding-left: 2px;
-		border-radius: 2px;
+		padding-left: 3px;
+		padding-bottom: 5px;
+		border-radius: 5px;
+		width: 109px;
+		height: 4px;
+		font-size: 11px;
+		vertical-align: middle;
 	}
 
 	.password input {
-		border-radius: 2px;
-		padding-left: 2px;
+		padding-left: 3px;
+		padding-bottom: 5px;
+		border-radius: 5px;
+		width: 109px;
+		height: 4px;
+		font-size: 11px;
+		vertical-align: middle;
 	}
 
 	.in {
@@ -64,28 +95,35 @@
 	}
 
 	.avatar img {
-		width: 100%;
-		margin-top: 5px;
+		width: 909px;
+		margin-top: 7px;
+		height: 237px;
+		padding-left: 29px;
 	}
 
 	nav {
 		position: relative;
 		overflow: hidden;
 		background: #17191b;
-		margin-top: 9px;
-		border-radius: 5px;
-		padding-top: 5px;
-		padding-bottom: 5px;
+		margin-top: 3px;
+		border-radius: 6px;
+		/*padding-top: 9px;
+		padding-bottom: 3px;*/
+		width: 912px;
+		margin-left: 28px;
 	}
 
 	.menu {
-		padding-left: 40px;
+		padding-left: 112px;
+		font-size: 14px;
 	}
 
 	.menu li {
 		float: left;
 		list-style-type: none;
-		padding-left: 5px;
+		padding-left: 35px;
+		padding-top: 9px;
+		padding-bottom: 9px;
 	}
 
 	.menu a {
@@ -96,23 +134,35 @@
 	.menu li a:hover {
 		background-color: #164e70;
 		border-radius: 7px;
-		padding: 5px 2px 5px 2px;
+		width: 123px;
+		padding-left: 20px;
+		padding-right: 18px;
+		padding-bottom: 4px;
+		padding-top: 4px;
+		border-radius: 25px;
 	}
 
 	.koshyk {
 		float: right;
 		color: #a2acb0;
+		padding-right: 77px;
 	}
 
-	.koshyk span {
-		padding-right: 5px;
+	.basket img{
+		padding-right: 19px;
+		padding-top: 7px;
+	}
+
+	.amount img {
+    padding-bottom: 3px;
 	}
 
 	.content {
 		width: 100%;
 		/*position: relative;*/
 		overflow: hidden;
-		margin-top: 100px;
+		margin-top: 161px;
+		margin-left: 28px;
 	}
 
 	.leftColumn {
@@ -123,34 +173,40 @@
 	}
 	
 	.catalog {
-		width: 181px;
-		border: 1px solid #79878d;
-		border-radius: 2px;
+		padding-top: 3px;
 	}
 
-	.catalog span {
-		text-transform: uppercase;
-		font-size: 13px;
+	.tires {
+	padding-top: 6px;
+    padding-left: 1px;
 	}
 
-	.sircle {
+	.tires img {
+		width: 
+	}
+
+	/*.sircle {
 		width: 148px;
 		border: 1px solid #79878d;
 		border-radius: 3px;
-	}
+	}*/
 	
-	.sircle img {
+	/*.sircle img {
 		padding-left: 2px;
 	}
 	
 	.sircle h4 {
 		padding-bottom: 2px;
-	}
+	}*/
 
+	.menuCatalog li {
+		padding-left: 3px;
+		list-style-image: url(../img/shape.png);
+	}
 	.centrumColumn {
 		float: left;
-		width: 58%;
-		padding-bottom: 20000px;
+		width: 528px;
+		padding-bottom: 20028px;
 		margin-bottom: -20000px;
 		background-image: url(../img/background.jpg);
 	}
@@ -159,6 +215,8 @@
 		display: block;
 		float: left;
 		text-align: center;
+		margin-top: 13px;
+		margin-left: 26px;
 	}
 
 	.rightColumn {
@@ -168,11 +226,11 @@
 		margin-bottom: -20000px;
 	}
 
-	.brands {
+	/*.brands {
 		width: 181px;
 		border: 1px solid #79878d;
 		border-radius: 2px;
-	}
+	}*/
 
 	.BrandsLogo {
 		text-align: center;
