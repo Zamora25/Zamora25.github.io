@@ -85,6 +85,10 @@
 		padding-right: 1px;
 	}
 
+	.registry {
+		
+	}
+
 	.forgotParol {
 		text-decoration: underline;
 	}
@@ -92,6 +96,10 @@
 	.post {
 		float: left;
 		padding-left: 2px;
+	}
+	
+	.post img {
+
 	}
 
 	.avatar img {
@@ -227,6 +235,10 @@
 		margin-top: 13px;
 		margin-left: 26px;
 	}
+	
+	figure img {
+		
+	}
 
 	.rightColumn {
 		float: left;
@@ -235,11 +247,21 @@
 		margin-bottom: -20000px;
 	}
 
-	/*.brands {
-		width: 181px;
-		border: 1px solid #79878d;
-		border-radius: 2px;
-	}*/
+	.brands {
+	
+	}
+	
+	.brands img {
+		
+	}
+	
+	.chackBrand {
+		
+	}
+
+	.chackBrand span {
+		
+	}
 
 	.BrandsLogo {
 		text-align: center;
