@@ -154,7 +154,7 @@
 	}
 
 	.amount img {
-    padding-bottom: 3px;
+    		padding-bottom: 3px;
 	}
 
 	.content {
@@ -177,8 +177,8 @@
 	}
 
 	.tires {
-	padding-top: 6px;
-    padding-left: 1px;
+		padding-top: 6px;
+    		padding-left: 1px;
 	}
 
 	.tires img {
@@ -202,14 +202,23 @@
 	.menuCatalog li {
 		padding-left: 3px;
 		list-style-image: url(../img/shape.png);
+		margin-left: 50px;
 	}
+	
+	.menuCatalog li a:hover {
+		font-weight: bold;
+		font-style: italic;
+		text-decoration: underline;
+	}
+	
 	.centrumColumn {
 		float: left;
 		width: 528px;
-		padding-bottom: 20028px;
+		padding-bottom: 20000px;
 		margin-bottom: -20000px;
 		background-image: url(../img/background.jpg);
 	}
+
 
 	figure {
 		display: block;
