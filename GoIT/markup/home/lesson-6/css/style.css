@@ -361,6 +361,10 @@
 		margin-left: 17px;
 	}
 	
+	.menuBottom li: after {
+		content: "¶ ";
+	}
+	
 	.menuBottom li a {
 		color: white;
 		text-decoration: none;
