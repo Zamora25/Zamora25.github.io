@@ -353,7 +353,7 @@
 		margin-top: 9px;
 	}
 
-	.menuBottom li span {
+	.menuBottom li{
 		float: left;
 		list-style-type: none;
 		/*position: relative;*/
