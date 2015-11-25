@@ -353,13 +353,12 @@
 		margin-top: 9px;
 	}
 
-	.menuBottom li {
+	.menuBottom li span {
 		float: left;
 		list-style-type: none;
 		/*position: relative;*/
 		left: 30%;
 		margin-left: 17px;
-		
 	}
 	
 	.menuBottom li a {
