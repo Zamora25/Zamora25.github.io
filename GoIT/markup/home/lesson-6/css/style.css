@@ -267,7 +267,7 @@
 	}
 	
 	figure img {
-		
+		border-radius: 10px;	
 	}
 
 	.rightColumn {
@@ -322,6 +322,7 @@
 
 	.BrandsLogo {
 		text-align: center;
+		margin-top: 40px;
 	}
 
 	footer {
@@ -340,6 +341,7 @@
 	footer {
 		position: relative;
 		overflow: hidden;
+		width: 912px;
 	}
 	
 	.menuBottom{
