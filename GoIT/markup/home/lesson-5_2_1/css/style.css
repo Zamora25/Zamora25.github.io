@@ -25,6 +25,7 @@ td {
 
 .red1 {
   border-bottom: none;
+  background: #FF4500;
 }
 
 .red2 {
@@ -69,6 +70,14 @@ td {
 .blue1 {
    border-right: none;
    border-top: none;
+}
+
+.black {
+   background: #696969;
+}
+
+.blue1, .blue2 {
+  background: #0000CD;
 }
 
 
