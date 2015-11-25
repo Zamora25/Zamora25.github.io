@@ -218,7 +218,7 @@
 
 	.tires {
 		padding-top: 6px;
-    	padding-left: 1px;
+    		padding-left: 1px;
 	}
 
 	.titesLeft img{
@@ -267,7 +267,7 @@
 	}
 	
 	figure img {
-		border-radius: 10px;	
+		
 	}
 
 	.rightColumn {
@@ -287,9 +287,9 @@
 	}
 	
 	.checkbox1 {
-    	padding-left: 32px;
-    	padding-top: 4px;
-    	font-size: 14px;
+    		padding-left: 32px;
+    		padding-top: 4px;
+    		font-size: 14px;
 	}
 
 	.checkbox2 {
@@ -313,16 +313,15 @@
 
 	.submit {
 		margin-left: 30px;
-    	margin-top: 31px;
-    	width: 81px;
-    	height: 28px;
-    	border-radius: 23px;
-    	border: none;
+    		margin-top: 31px;
+    		width: 81px;
+    		height: 28px;
+    		border-radius: 23px;
+    		border: none;
 	}
 
 	.BrandsLogo {
 		text-align: center;
-		margin-top: 40px;
 	}
 
 	footer {
@@ -330,7 +329,9 @@
 		position: relative;
 		overflow: hidden;
 		background: #213a4d;
-		height: 70px;
+		height: 107px;
+		margin-left: 27px;
+		margin-top: 18px;
 	}
 
 	.submit {
@@ -341,12 +342,13 @@
 	footer {
 		position: relative;
 		overflow: hidden;
-		width: 912px;
 	}
 	
 	.menuBottom{
 		float: left;
 		width: 100%;
+		margin-left: 284px;
+		margin-top: 9px;
 	}
 
 	.menuBottom li {
@@ -354,6 +356,12 @@
 		list-style-type: none;
 		/*position: relative;*/
 		left: 30%;
+		margin-left: 17px;
+		color: white;
+	}
+	
+	.aboutCompany {
+		color: blue;
 	}
 	
 	.copyright {
