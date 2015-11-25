@@ -364,9 +364,10 @@
 	
 	.menuBottom li a {
 		color: white;
+		text-decoration: none;
 	}
 	
-	.aboutCompany a{
+	.menuBottom li a:hover {
 		color: blue;
 	}
 	
