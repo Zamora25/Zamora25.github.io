@@ -15,7 +15,8 @@
 	}
 
 	body {
-		width: 1200x;
+		width: 1200px;
+		margin: auto;
 	}
 
 
@@ -25,16 +26,17 @@
 		margin-bottom: 5px;
 		margin-top: 5px;
 		background-image: url(../img/for_menu.jpg);
-		}
+		height: 31px;
+	}
 
 	.menu li {
 		float: right;
 		list-style: none;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		padding-right: 15px;
-		padding-left: 15px;
-
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-right: 12px;
+		padding-left: 12px;
+		margin-right: 12px;
 	}
 
 	.menu li a {
@@ -43,13 +45,15 @@
 		font-family: 'Helvetica Neue';
 	}
 
-	.menu li:hover {
+	.menu li a:hover {
 		background: #4eabda;
+		color: #ffffff;
+		padding: 7px 12px 7px 12px;
 	}
 
-	.menu li a:hover {
+	/*.menu li a:hover {
 		color: #ffffff;
-	}
+	}*/
 
 	.flag img{
 		width: 18px;
@@ -65,6 +69,10 @@
 		color: #ffffff;
 	}
 	
+	.ola {
+		background: linear-gradient(to top, #2e7ac4, #4faedb);
+		}
+
 	.ola span {
 		text-decoration: underline;
 	}
@@ -89,6 +97,7 @@
 		text-align: center;
 		line-height: 60px;
 		color: #ffffff;
+		font-size: 24px;
 	}
 
 	.facebook img {
@@ -131,7 +140,12 @@
 	.checkbox {
 		padding-left: 141px;
 		padding-top: 10px;
-		color: #ffffff;
+	}
+
+	.checkbox span {
+		color: #cccccc;
+		font-family: 'Helvetica Neue', Arial, Tahoma;
+		font-size: 14px;
 	}
 
 	.submit input{
@@ -140,18 +154,19 @@
 		border-radius: 3px;
 		margin-top: 10px;
 		margin-left: 205px;
-		background: #449dd4;
+		background: linear-gradient(to top, #2e7ac4, #4eabda);
 		border: none;
 		color: #ffffff;
 	}
 
-	.policy p{
-		width: 420px;
+	 .Privacy_Policy {
+		width: 365px;
 		line-height: 25px;
-		margin-left: 70px;
+		margin-left: 98px;
 		margin-top: 10px;
-		color: #ffffff;
-		font-family: 'Helvetica Neue';
+		color: #cccccc;
+		font-size: 12px;
+		font-family: 'Helvetica Neue', Arial, Tahoma;
 	}
 	
 
