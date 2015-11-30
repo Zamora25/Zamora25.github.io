@@ -1,0 +1,134 @@
+	* {
+	margin: 0;
+	padding: 0;
+	}
+
+	body {
+		width: 2398px;
+		margin: auto;
+	}
+
+	header {
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		background-image: url(../img/bg.jpg);
+	}
+
+	.logo {
+		float: left;
+		margin-left: 719px;
+		margin-top: 69px;
+		/*width: 30%;*/
+	}
+
+	.menu {
+		float: left;
+		margin-top: 75px;
+		/*width: 70%;*/
+	}
+
+	.menu__item {
+		list-style-type: none;
+		margin-left: 54px;		
+	}
+
+	.mеnu__link {
+		text-transform: uppercase;
+		color: #ffffff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	.mеnu__link:hover {
+		text-decoration: underline;
+	}
+
+	.flash {
+		width: 100%;
+		float: left;
+		height: 396px;
+		position: relative;
+		/*overflow: hidden;*/
+		margin-top: 182px;
+		margin-bottom: 165px;
+		background: rgba( 16, 15, 15, 0.65);
+	}
+
+	.pointerLeft img {
+		float: left;
+		margin-left: 400px;
+		margin-top: 182px;
+	}
+
+	.flash__box1 {
+		float: left;
+		width: 500px;
+		margin-top: 82px;
+		margin-left: 295px;
+	}
+
+	.flash__box1 h1 {
+		font-size: 43px;
+		color: #fefefe;
+	}
+
+	.flash__box1 h2 {
+		font-size: 23px;
+		text-transform: uppercase;
+		color: #edbfff;
+	}
+
+	.flash__box1 p {
+		color: #a9a5ac;
+	}
+
+	/*.iphone {
+		position: relative;
+		z-index: 2;
+	}*/
+
+	.iphone img {
+		float: left;
+		position: relative;
+		z-index: 2;
+		margin-left: 123px;
+	}
+
+	.pointerRight img {
+		float: left;
+		margin-left: 371px;
+		margin-top: 182px;
+	}
+
+	section {
+		position: relative;
+		overflow: hidden;
+		background-color: #4a3454;
+	}
+
+	.aboutCompany {
+		float: left;
+		margin-left: 782px;
+		list-style-type: none;
+	}
+
+	.aboutCompany__item {
+		float: left;
+		width: 221px;
+	}
+
+	.aboutCompany__item:before {
+		background: url(../img/sprite.png)0 0 no-repeat;
+		width:30px;
+    	height:30px;
+   	 	display:block;
+   	 	position:absolute;
+    	content: " ";
+    	left: 
+	}
+
+
+
+
