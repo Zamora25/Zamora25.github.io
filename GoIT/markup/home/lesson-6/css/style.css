@@ -30,6 +30,9 @@
 
 	.telnumber {
 		padding-left: 4px;
+		position: absolute;
+		color: #5e696d;
+		font-size: 20px;
 	}
 
 	.number {
@@ -44,15 +47,17 @@
 	}
 
 	.action1 {
-		background: #0d365a;
-		border-radius: 2px;
+		background: linear-gradient(to top, #0c3357, #1f6685);
+		border-radius: 4px;
 		color: #d3d9de;
 		padding-bottom: 6px;
+		box-shadow: 3px 3px 26px 3px rgba(193,193,193,1);
 	}
 
 	.action1 img {
 		padding-left: 6px;
 		padding-top: 5px;
+		margin-bottom: 2px;
 	}
 
 	.action1 input {
@@ -67,7 +72,7 @@
 	.login input {
 		padding-left: 3px;
 		padding-bottom: 5px;
-		border-radius: 5px;
+		border-radius: 2px;
 		width: 109px;
 		height: 4px;
 		font-size: 11px;
@@ -77,7 +82,7 @@
 	.password input {
 		padding-left: 3px;
 		padding-bottom: 5px;
-		border-radius: 5px;
+		border-radius: 2px;
 		width: 109px;
 		height: 4px;
 		font-size: 11px;
@@ -86,7 +91,7 @@
 
 	.in {
 		padding-right: 1px;
-		background-color: #0d365a;
+		background: linear-gradient(to top, #0c3357, #1f6685);
 		border: none;
 		color: #ffffff;
 	}
@@ -104,20 +109,21 @@
 	.verticalLine img {
 		padding-top: 2px;
 		padding-bottom: 4px;
+		margin-left: -6px;
 	}
 
 	.registry {
-		background-color: #0d365a;
+		background: linear-gradient(to top, #0c3357, #1f6685);
 		border: none;
 		color: #ffffff;
 	}
 
 	.forgotParol input {
 		text-decoration: underline;
-		background-color: #0d365a;
+		background: linear-gradient(to top, #0c3357, #1f6685);
 		border: none;
 		color: #ffffff;
-		padding-left: 4px;
+		padding-left: 17px;
 	}
 
 	.post {
@@ -133,9 +139,10 @@
 		padding-left: 29px;
 	}
 
-	nav {
-		position: relative;
-		overflow: hidden;
+	.menu {
+		float: left;
+		/*position: relative;
+		overflow: hidden;*/
 		background: #17191b;
 		margin-top: 3px;
 		border-radius: 6px;
@@ -145,34 +152,29 @@
 		margin-left: 28px;
 	}
 
-	.menu {
-		padding-left: 112px;
-		font-size: 14px;
-	}
-
-	.menu li {
-		float: left;
+	.menu ul {
 		list-style-type: none;
-		padding-left: 35px;
-		padding-top: 9px;
-		padding-bottom: 9px;
+		margin-left: 127px;
 	}
 
 	.menu a {
-		color: #a2acb0;
+		float: left;
+		padding-left: 17px;
+		padding-right: 17px;
+		font-size: 14px;
 		text-decoration: none;
+		color: #b1bcc0;
+		padding: 6px 10px 6px 10px;
+		margin-bottom: 5px;
+		margin-top: 5px;
 	}
 
-	.menu li a:hover {
-		background-color: #164e70;
-		border-radius: 7px;
-		width: 123px;
-		padding-left: 20px;
-		padding-right: 18px;
-		padding-bottom: 4px;
-		padding-top: 4px;
-		border-radius: 25px;
+	.menu a:hover {
+		background: #0e375c;
+		color: #ffffff;
+		border-radius: 10px;
 	}
+
 
 	.koshyk {
 		float: right;
@@ -182,11 +184,24 @@
 
 	.basket img{
 		padding-right: 19px;
-		padding-top: 7px;
+		padding-top: 10px;
 	}
 
 	.amount img {
     		padding-bottom: 3px;
+	}
+
+	.basket_price {
+		color: #0d5a8f;
+		position: absolute;
+		margin: -16px;
+   		margin-top: 10px;
+	}
+
+	.amount_price {
+		color: #0d5a8f;
+		position: absolute;
+		margin: 10px;
 	}
 
 	.content {
