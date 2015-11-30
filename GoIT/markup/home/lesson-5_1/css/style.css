@@ -23,59 +23,53 @@
 	.menu {
 		float: right;
 		width: 100%;
-		margin-bottom: 5px;
-		margin-top: 5px;
 		background-image: url(../img/for_menu.jpg);
-		height: 31px;
+		height: 28px;
 	}
 
-	.menu li {
-		float: right;
+	.menu ul {
 		list-style: none;
-		padding-top: 7px;
-		padding-bottom: 7px;
-		padding-right: 12px;
-		padding-left: 12px;
 		margin-right: 12px;
+		font-size: 14px;
 	}
 
-	.menu li a {
+	.menu a {
+		float: right;
 		text-decoration: none;
 		color: #5aaee6;
+		padding-top: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 5px;
 		font-family: 'Helvetica Neue';
 	}
 
-	.menu li a:hover {
-		background: #4eabda;
-		color: #ffffff;
-		padding: 7px 12px 7px 12px;
+	.flag img {
+		width: 11px;
+    	margin-right: 6px;
 	}
 
-	/*.menu li a:hover {
-		color: #ffffff;
-	}*/
-
-	.flag img{
-		width: 18px;
-		height: 15px;
-		padding-right: 9px;
-	}
-	
-	.Minhas {
+    .Minhas a{
 		border: none;
 		border-left: 2px solid #4eabda;
-	}
-	.Minhas span {
 		color: #ffffff;
 	}
-	
-	.ola {
-		background: linear-gradient(to top, #2e7ac4, #4faedb);
-		}
+
+	.ola a{
+		background: linear-gradient(to top, #2e7ac4, #4eabda);
+		color: #ffffff;
+	}
 
 	.ola span {
 		text-decoration: underline;
 	}
+
+	.menu a:hover {
+		background: #4eabda;
+		color: #ffffff;
+	}
+
+
 
 	.wrapper img {
 		width: 100%;
@@ -87,7 +81,7 @@
 	form {
 		position: absolute;
 		left: 30%;
-		top: 15%;
+		top: 30%;
 		width: 560px;
 		height: 573px;
 		background: rgba( 16, 15, 15, 0.65);
