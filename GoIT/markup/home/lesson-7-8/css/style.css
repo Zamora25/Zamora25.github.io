@@ -119,15 +119,14 @@
 		width: 221px;
 	}
 	
-	h2 {
+	.aboutCompany__item {
 		padding-left: 10px;
 	}
 
-	h2:before {
+	.aboutCompany__item:before {
 		background: url(../img/sprite.png)0 0 no-repeat;
 		width:30px;
     		height:30px;
-    		content: '';
    	 	display: inline-block;
 	}
 
