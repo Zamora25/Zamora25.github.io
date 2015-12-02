@@ -116,11 +116,11 @@
 
 	.aboutCompany__item {
 		float: left;
-		width: 232px;
+		width: 233px;
 	}
 	
-	.aboutCompany__item {
-		padding-left: 10px;
+	.aboutCompany__item p{
+		padding-left: 28px;
 	}
 
 	h2:before {
