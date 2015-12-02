@@ -40,7 +40,7 @@
 	}
 
 
-	form {
+	.loginForm {
 		float: left;
 		width: 495px;
 		height: 24px;
@@ -56,7 +56,7 @@ background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(13,52,88,1) 4
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#0d3458', GradientType=0 );
 	}
 
-	form img {
+	.loginForm img {
 		float: left;
 		margin-left: 4px;
 		margin-top: 3px;
