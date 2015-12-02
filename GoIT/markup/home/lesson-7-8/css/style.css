@@ -118,15 +118,17 @@
 		float: left;
 		width: 221px;
 	}
+	
+	h2 {
+		padding-left: 10px;
+	}
 
-	.aboutCompany__item:before {
+	.aboutCompany__item h2:before {
 		background: url(../img/sprite.png)0 0 no-repeat;
 		width:30px;
-    	height:30px;
+    		height:30px;
    	 	display:block;
-   	 	position:absolute;
-    	content: " ";
-    	left: 
+   	 	display: inline-block;
 	}
 
 
