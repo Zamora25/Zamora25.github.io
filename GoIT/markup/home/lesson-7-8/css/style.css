@@ -116,7 +116,7 @@
 
 	.aboutCompany__item {
 		float: left;
-		width: 233px;
+		width: 236px;
 	}
 	
 	.aboutCompany__item p{
@@ -126,11 +126,59 @@
 	.aboutCompany__item h2:before {
 		background: url(../img/sprite.png)0 0 no-repeat;
 		width:30px;
-    		height:30px;
-    		content: '';
+    	height:30px;
+    	content: '';
    	 	display: inline-block;
 	}
 
+	.key {
+		background-position: -31px 0;
+	}
+
+	 .chat {
+		background-position: 0 -62px ;
+	}
+
+	.music {
+		background-position: -135px 0;
+	}
 
 
+	.news {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		background-color: #f9f9f9;
+	}
+
+	.news_top {
+		background: url(../img/backgroundForNews.png) 0 0 no-repeat;
+		float: left;
+		width: 427px;
+		height: 271px;
+	}
+
+	.news_top h2:before {
+		content: url(../img/foto_man.png);
+	}
+
+
+	.news_top h2 {
+		text-transform: uppercase;
+		color: #454545;
+		font-size: 30px;
+		width: 427px;
+	}
+
+	.news_top h2 span {
+		text-transform: uppercase;
+		color: #454545;
+		font-size: 30px;
+		color: #edbfff;
+	}
+
+	.news_top p {
+		font-size: 16px;
+		color: #454545;
+	}
 
