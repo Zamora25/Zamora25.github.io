@@ -173,7 +173,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 		box-shadow: 0px 0px 13px 6px rgba(75,135,177,1);
 	}
  
- 	input [type="text"] {
+ 	.colortext {
  		color: #ffffff;	
  	}
 
