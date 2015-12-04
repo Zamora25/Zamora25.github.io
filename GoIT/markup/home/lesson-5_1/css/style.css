@@ -177,10 +177,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
  		background-color: #ffffff;	
  	}
 
-	::-webkit-input-placeholder {color:#fffcfc;}
-	::-moz-placeholder          {color:#fffcfc;}
-	:-moz-placeholder           {color:#fffcfc;}
-	:-ms-input-placeholder      {color:#fffcfc;}
+	input: focus:-webkit-input-placeholder {color:#fffcfc;}
+	input: focus::-moz-placeholder          {color:#fffcfc;}
+	input: focus:-moz-placeholder           {color:#fffcfc;}
+	input: focus:-ms-input-placeholder      {color:#fffcfc;}
 	
 
 	.checkbox {
