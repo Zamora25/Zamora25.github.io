@@ -174,7 +174,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 	}
  
  	input [type="text"] {
- 		background-color: #ffffff;	
+ 		color: #ffffff;	
  	}
 
 	input: focus:-webkit-input-placeholder {color:#fffcfc;}
