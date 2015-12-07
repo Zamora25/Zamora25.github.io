@@ -89,9 +89,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 		float: left;
 		border: none;
 		color: #ffffff;
-		font-size: 10px;
+		font-size: 11px;
 		margin-left: 5px;
-		margin-top: 6px; 
+		margin-top: 5px; 
+		text-decoration: none;
 		background-color: rgba(193, 193, 193, 0);
 }
 
@@ -497,6 +498,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
     	height: 26px;
     	border-radius: 23px;
     	border: none;
+    	cursor: pointer;
     	box-shadow: 4px 4px 5px 0px rgba(105,123,139,1);
 	}
 
