@@ -53,7 +53,7 @@
 		/*overflow: hidden;*/
 		margin-top: 182px;
 		margin-bottom: 165px;
-		background: rgba( 16, 15, 15, 0.65);
+		background: rgba( 16, 15, 15, 0.50);
 	}
 
 	.pointerLeft img {
@@ -132,11 +132,12 @@
    	 	display: inline-block;
 	}
 
-	.key {
+
+	 .key {
 		background-position: -31px 0;
 	}
 
-	 .chat {
+	.chat {
 		background-position: 0 -62px ;
 	}
 
@@ -163,6 +164,9 @@
 
 	.news img {
 		float: left;
+		margin-top: 120px;
+		position: absolute;
+		margin-left: 720px
 	}
 
 	.news_top h2 {
@@ -237,9 +241,10 @@
 		color: #454545;
 		margin-left: 235px;
 		text-transform: uppercase;
-		font-size: 12px;
+		font-size: 11px;
 		position: absolute;
 		margin-top: 20px;
+		font-weight: bold;
 	}
 
 	.comments {
@@ -260,19 +265,21 @@
 
 	.box1 h2 {
 		text-transform: uppercase;
-		font-size: 12px;
+		font-size: 20px;
 		color: #454545;
 	}
 
 	.copyright {
 		font-style: italic;
 		color: #c9c9c9; 
+		opacity: 0.5;
+		margin-top: 8px;
 	}
 
 	.box1 h2 span {
 		color: #b9b9b9;
 		font-style: italic;
-		font-size: 12px;
+		font-size: 20px;
 	}
 
 	.box2 {
@@ -284,7 +291,21 @@
 	.box2 h2 {
 		color: #454545;
 		text-transform: uppercase;
-		font-size: 12px;
+		font-size: 20px;
+	}
+
+	.box1 p {
+		color: #787878;
+	}
+
+	.box2 p {
+		color: #787878;
+		margin-top: 10px;
+	}
+
+	.box3 p {
+		color: #787878;
+		margin-top: 10px;
 	}
 
 	.box3 {
@@ -296,7 +317,7 @@
 	.box3 h2{
 		color: #454545;
 		text-transform: uppercase;
-		font-size: 12px;
+		font-size: 20px;
 	}
 
 	footer {
