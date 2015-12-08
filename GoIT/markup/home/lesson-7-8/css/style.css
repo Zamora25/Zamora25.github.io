@@ -132,16 +132,13 @@
    	 	display: inline-block;
 	}
 
-	.key {
-		background-position: -31px 0;
-	}
 
 	.aboutCompany__item .chat:before  {
-		background-position: 0 -62px ;
+		background-position: -62px ;
 	}
 
-	.music {
-		background-position: -135px 0;
+	.aboutCompany__item .music {
+		background-position: -135px;
 	}
 
 
