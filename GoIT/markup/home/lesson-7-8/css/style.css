@@ -127,8 +127,8 @@
 	.aboutCompany__item h2:before {
 		background: url(../img/sprite.png)0 0 no-repeat;
 		width:30px;
-    	height:30px;
-    	content: '';
+    		height:30px;
+    		content: '';
    	 	display: inline-block;
 	}
 
@@ -136,7 +136,7 @@
 		background-position: -31px 0;
 	}
 
-	 .chat {
+	h2:before  {
 		background-position: 0 -62px ;
 	}
 
