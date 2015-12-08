@@ -136,7 +136,7 @@
 		background-position: -31px 0;
 	}
 
-	h2:before  {
+	&.chat:before  {
 		background-position: 0 -62px ;
 	}
 
