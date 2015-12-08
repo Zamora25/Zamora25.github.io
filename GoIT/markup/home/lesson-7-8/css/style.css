@@ -137,7 +137,7 @@
 		background-position: -62px ;
 	}
 
-	.aboutCompany__item .music {
+	.aboutCompany__item .music:before {
 		background-position: -135px;
 	}
 
