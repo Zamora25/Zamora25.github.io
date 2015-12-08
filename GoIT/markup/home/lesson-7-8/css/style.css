@@ -15,6 +15,12 @@
 		background-image: url(../img/bg.jpg);
 	}
 
+	.wrupper1 {
+		width: 100%;
+	}
+	
+	
+	
 	.logo {
 		float: left;
 		margin-left: 719px;
@@ -127,24 +133,18 @@
 	.aboutCompany__item h2:before {
 		background: url(../img/sprite.png)0 0 no-repeat;
 		width:30px;
-    	height:30px;
-    	content: '';
+    		height:30px;
+    		content: '';
    	 	display: inline-block;
 	}
 
-
-	 .key {
-		background-position: -31px 0;
+	.aboutCompany__item .chat:before  {
+		background-position: -30px ;
 	}
 
-	.chat {
-		background-position: 0 -62px ;
+	.aboutCompany__item .music:before {
+		background-position: -60px;
 	}
-
-	.music {
-		background-position: -135px 0;
-	}
-
 
 	.news {
 		position: relative;
