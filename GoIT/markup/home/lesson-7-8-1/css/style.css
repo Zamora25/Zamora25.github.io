@@ -9,53 +9,71 @@
 	}
 
 	header {
-		width: 100%;
-		position: relative;
-		overflow: hidden;
 		background-image: url(../img/bg.jpg);
 	}
 
-	.logo img {
-		margin-left: 40%;
-	}
-
-	.menu {
-		margin-left: 45%;
-		list-style-type: none;
-		text-transform: uppercase;
-		margin-top: 3%;
-		font-size: 50%;
-	}
- 
-	.flash {
-		width: 100%;
-		float: left;
+	.wrupper {
 		position: relative;
-		padding-left: 11%;
+		overflow: hidden;
+		width: 320px;
+		margin: auto;
 	}
 
-	.pointerLeft img {
+	.logo {
+		text-align: center;
+	}
+
+	.home {
+		margin-top: 39px;
+	}
+
+	.home a {
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+
+	.flash {
+		position: relative;
+		overflow: hidden;
+		margin-top: 122px;
+	}
+
+	.pointerLeft {
 		float: left;
+		width: 7%;
 	}
 
 	.flash__box1 {
 		float: left;
+		width:79%;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
-	.flash__box1 h1 {
-		font-size: 43px;
+	.flash__box1 h1{
 		color: #fefefe;
-		padding-left: 22%;
+		text-transform: capitalize;
+		font-size: 29px;
 	}
 
 	.flash__box1 h2 {
-		font-size: 23px;
 		text-transform: uppercase;
 		color: #edbfff;
-		padding-left: 10%;
+		font-size: 6px;
 	}
 
-	.pointerRight img {
+	.pointerRight {
+		float: left;
+		width: 7%;
+	}
+
+	section {
+		position: relative;
+		overflow: hidden;
+		background-color: #4a3454;
+	}
+
+	.aboutCompany__item {
 		float: left;
 	}
 
@@ -65,4 +83,4 @@
     	height:30px;
     	content: '';
    	 	display: inline-block;
-   	 }
+	}
