@@ -279,12 +279,12 @@
 
 	.brands {
 		display: inline-block;
+		margin-top: 125px;
 	}
 
-	/*.brands img{
-		margin-top: 102px;
-		width: 100%;
-	}*/
+	.brands img{
+		margin-right: 46px;
+	}
 
 	.comments {
 		position: relative;
@@ -401,17 +401,202 @@
 		padding-left: 4px;
 	}
 
-	
 
 
+@media screen and (max-width: 480px) and (min-width: 320px) {
+		
+		.wrupper {
+			min-width: 320px;
+			max-width: 480px;
+			width: 320px;
+			margin: auto;
+		}
+
+		.logo {
+			float: none;
+			text-align: center;
+		}
+
+		.home {
+			margin-top: 39px;
+			text-align: center;
+	}
+
+		.home a {
+			text-transform: uppercase;
+			color: #ffffff;
+	}
+
+		.menu {
+			display: none;
+		}
+
+}
 
 
 	@media screen and (max-width: 768px) and (min-width: 480px) {
+		
+		.wrupper {
+			min-width: 480px;
+			max-width: 768px;
+			width: 480px;
+			margin: auto;
+		}
+
+		.home {
+			display: none;
+		}
+
+		.menu {
+			width: 243px;
+			margin-left: 112px;
+			background: rgba( 63, 50, 71, 0.65);
+			margin-top: 17px;
+			height: 258px;
+			border-radius: 7px;
+		}
+
+		.menu__item {
+			float: none;
+			margin-left: 0;
+			text-align: center;
+			padding: 10px;
+			border-bottom: 2px solid #523e5a;
+		}
+
+		.menu__item:hover {
+			background: rgba( 43, 34, 49, 0.65);
+			border-bottom: 2px solid #edbfff;
+		}
+
+		.logo {
+			float: none;
+			text-align: center;
+		}
+
+		.flash {
+			height: 244px;
+			margin-top: -185px;
+		}
+
+		.flash__box1 {
+			margin-top: 97px;
+		}
+
+		.flash__box1 p {
+			display: none;
+			margin-top: 4px;
+			margin-left: 15px;
+		}
+
+		.pointerLeft img {
+			margin-left: -7px;
+			margin-top: 104px;
+		}
+
+		.flash__box1 h1 {
+			font-size: 23px;
+		}
+
+		.flash__box1 h2 {
+			font-size: 12px;
+		}
+
+		.iphone img {
+			margin-left: 255px;
+			top: -188px;
+			height: 303px;
+			width: 186px;
+		}
+
+		.pointerRight img {
+			margin-left: 9px;
+    		margin-top: -79px;
+		}
+
+		.aboutCompany {
+			margin-left: 83px;
+			margin-top: 17px;
+		}
+
+		.aboutCompany__item {
+			width: 100%;
+			margin: 9px;
+		}
+
+		section {
+			height: auto;
+		}
+
+		.aboutCompany__item p {
+			margin-left: -52px;		}
+		}
+
+		.news_top {
+			margin-top: 156px;
+			margin-left: 82px;
+		}
+		.news_top p {
+			line-height: 20px;
+		}
+
+		.recentUpdates	{
+			margin-top: 123px;
+    		margin-left: 48px;
+		}
+
+		.comments {
+			height: inherit;
+		}
+
+		.man img {
+			margin-top: 159px;
+    		margin-left: 17px;
+		}
+
+		.box1  {
+			width: 100%;
+			padding-left: 0px;  
+			display: block;
+			margin-top: 20px;
+		}
+
+		.box2 {
+			width: 100%;
+			padding-left: 0px;  
+			display: block;
+			margin-top: 20px;
+		}
+
+		.box3 {
+			width: 100%;
+			padding-left: 0px;  
+			display: block;
+			margin-top: 20px;
+		}
+
+		footer {
+			margin-top: 60px;
+		}
+
+		.maker {
+			display: block;
+			padding-left: 163px;
+			margin-top: 97px;
+		}
+
+	}
+
+	@media screen and (max-width: 960px) and (min-width: 768px) {
 		.wrupper {
 			min-width: 768px;
 			max-width: 960px;
 			width: 768px;
 			margin: auto;
+		}
+
+		.home {
+			display: none;
 		}
 
 		.menu {
@@ -505,6 +690,11 @@
 			margin-left: 36px;
 		}
 
+		.brands img {
+			margin-right: 17px;
+			margin-left: 159px;
+		}
+
 		.box1 {
 			display: none;
 		}
@@ -521,104 +711,39 @@
 			padding-left: 71px;
 			margin-top: 97px;
 		}
+
 	}
 
-		@media screen and (max-width: 480px) and (min-width: 320px) {
+
+	@media screen (min-width: 960px){
 		.wrupper {
-			min-width: 480px;
-			max-width: 320px;
-			width: 480px;
+			min-width: 960px;
+			width: 960px;
 			margin: auto;
-		}
+	}
 
-		.menu {
-			width: 243px;
-			margin-left: 112px;
-			background: rgba( 63, 50, 71, 0.65);
-			margin-top: 17px;
-			height: 258px;
-			border-radius: 7px;
-		}
-
-		.menu__item {
-			float: none;
-			margin-left: 0;
-			text-align: center;
-			padding: 10px;
-			border-bottom: 2px solid #523e5a;
-		}
-
-		.menu__item:hover {
-			background: rgba( 43, 34, 49, 0.65);
-			border-bottom: 2px solid #edbfff;
-		}
-
-		.logo {
-			float: none;
-			text-align: center;
-		}
-
-		.flash {
-			height: 244px;
-			margin-top: -185px;
-		}
-
-		.flash__box1 {
-			margin-top: 97px;
-		}
-
-		.flash__box1 p {
-			display: none;
-			margin-top: 4px;
-			margin-left: 15px;
-		}
-
-		.pointerLeft img {
-			margin-left: -7px;
-			margin-top: 104px;
-		}
-
-		.flash__box1 h1 {
-			font-size: 23px;
-		}
-
-		.flash__box1 h2 {
-			font-size: 12px;
-		}
-
-		.iphone img {
-			margin-left: 255px;
-			top: -188px;
-			height: 303px;
-			width: 186px;
-		}
-
-		.pointerRight img {
-			margin-left: 9px;
-    		margin-top: -79px;
-		}
-
-		.aboutCompany {
-
-		}
-
-		.aboutCompany__item {
-			width: 100%;
-			margin: 9px;
-		}
-
-		section {
-			height: auto;
-		}
-
-		.aboutCompany__item p {
-			margin-left: -52px;
-		}
-
-		.comments {
+		.box1 {
 			float: left;
+			width: 277px;
 		}
+
+		.box2 {
+			float: left;
+			width: 277px;
+		}
+
+		.box3 {
+			float: left;
+			width: 277px;
+		}
+
+		.home {
+			    display: none;
+		}
+	}
 		
+
+	
 
 	
 	
