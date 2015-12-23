@@ -1,22 +1,22 @@
- 	function pow(x, n) {
-  var result = x;
 
-  for (var i = 1; i < n; i++) {
-    result *= x;
-  }
+	var x = prompt ('укажите число','');
+	var n = prompt ('укажите степень','');
 
-  return result;
-}
 
-var x = prompt("x?", '');
-var n = prompt("n?", '');
+	function pow(x, n) {
+		var result = 1;
 
-if (n <= 1) {
-  alert('Степень ' + n +
-    'не поддерживается, введите целую степень, большую 1'
-  );
-} else {
-  alert( pow(x, n) );
-}
- 
+		for (var i = 0; i < n; i++) {
+		result = result * x; 
+	}
+
+	return result;
+
+	}
+
+	var powResult = pow(x, n);
+
+	console.log(powResult);
+
+
 
