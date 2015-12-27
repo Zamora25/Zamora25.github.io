@@ -13,9 +13,11 @@
 	var flag = false;
 
 	for (var i = 0; i < 5; i++) {
-		if (arr[i] === userName){
+		if (arr[i] === userName) {
 			flag = true;
-		} 
+			break;
+		}
+		
 	};
 
 	if (flag){
