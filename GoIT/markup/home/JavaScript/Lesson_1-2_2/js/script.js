@@ -11,7 +11,7 @@
 	console.log(arr);
 
 	var userName = prompt('введите имя пользователя');
-	name = name.toLowerCase();
+	userName = userName.toLowerCase();
 	var flag = false;
 
 	for (var i = 0; i < 5; i++) {
