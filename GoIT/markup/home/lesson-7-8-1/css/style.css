@@ -1,215 +1,114 @@
-	* {
-	margin: 0;
-	padding: 0;
-	}
+		* {
+			margin: 0;
+			padding: 0;
+		}
 
+/*..........................................................width 320px.................................................*/
 
-	body {
-		width: 100%;
-		margin: auto;
-	}
+		@media screen and (max-width: 480px) and (min-width: 320px) {
+		body {
+			width: 100%;
+			margin: auto;
+		}
 
-	header {
-		background-image: url(../img/bg.jpg);
-	}
+		.wrupper {
+			min-width: 320px;
+			max-width: 480px;
+			margin: auto;
+		}
 
-	.wrupper {
-		position: relative;
-		overflow: hidden;
-		width: 100%;
-		margin: auto;
-	}
+		header {
+			width: 100%;
+			position: relative;
+			overflow: hidden;
+			background-image: url(../img/bg.jpg);
+		}
 
-	.logo {
-		text-align: center;
-	}
+		.logo {
+			margin-left: 84px;
+		}
 
-	.home {
-		margin-top: 39px;
-		text-align: center;
-	}
+		.home a{
+			text-transform: uppercase;
+			font-size: 18px;
+			text-decoration: none;
+			color: #ffffff;
+			font-weight: bold;
+		}
 
+		.home {
+			margin-left: 143px;
+			margin-top: 41px;
+		}
 
-	.home a {
-		text-transform: uppercase;
-		color: #ffffff;
-	}
+		.underline {
+			width: 47px;
+			border: 2px solid #edbfff;
+			margin-left: 137px;
+			margin-top: 8px;
+		}
 
-	.menu {
-		text-align: center;
-	}
+		.flash {
+			position: relative;
+			overflow: hidden;
+			margin-top: 124px;
+		}
 
-	.flash {
-		position: relative;
-		overflow: hidden;
-		margin-top: 122px;
-	}
+		.pointerLeft {
+			float: left;
+		}
 
-	.pointerLeft {
-		float: left;
-		width: 7%;
-	}
+		.flash__box1 {
+			float: left;
+			margin-left: 45px;
+			margin-right: 30px;
+		}
 
-	.flash__box1 {
-		float: left;
-		width:79%;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
+		.flash__box1 h1 {
+			font-size: 20px;
+			text-transform: capitalize;
+			color: #fefefe;
+			
+		}
 
-	.flash__box1 h1{
-		color: #fefefe;
-		text-transform: capitalize;
-		font-size: 29px;
-	}
+		.flash__box1 h2 {
+			font-size: 14px;
+			text-transform: uppercase;
+			color: #edbfff;
+		}
 
-	.flash__box1 h2 {
-		text-transform: uppercase;
-		color: #edbfff;
-		font-size: 6px;
-	}
+		.pointerRight {
+			float: left;
+		}
 
-	.pointerRight {
-		float: left;
-		width: 7%;
-	}
+		.radio .radio_part{
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 11px;
+		    line-height: 14px;
+		    min-width: 14px;
+		    background: rgba(0, 0, 0, 0.75);
+		    color: #3b3942;
+		    border-radius: 14px;
+		    padding: 3px;
+		    text-align: center;
+		    margin-right: 1px;
+		    margin-top: 0px;
+		    opacity: .75;
+		    padding-top: 5px 5px 5px 5px;
+		    width: 11px;
+		    height: 14px;
+		}
 
-	section {
-		position: relative;
-		overflow: hidden;
-		background-color: #4a3454;
-	}
-/*
-	.aboutCompany__item {
-		float: left;
-	}*/
+		.radio .radio_part .active{
+		    background: #4E443C;
+		    color: #fff;
+		    opacity: 1;
+		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+		} 
 
-	.aboutCompany__item h2:before {
-		background: url(../img/sprite.png)0 0 no-repeat;
-		width:30px;
-    	height:30px;
-    	content: '';
-   	 	display: inline-block;
-	}
-
-	.wrupper .aboutCompany {
-		margin-top: 69px;
-	}
-
-	.aboutCompany__item p{
-		padding-left: 28px;
-	}
-
-	.wrupper .news {
-		margin-top: 95px;
-	}
-
-	.content {
-		background-color: #f9f9f9;
-	}
-
-	.news {
-		position: relative;
-		overflow: hidden;
-		float: left;
-	}
-
-	.news img {
-		float: left;
-	}
-
-	.news_top {
-		/*float: left;
-		width: 54%;*/
-		background: url(../img/backgroundForNews.png) 0 0 no-repeat;
-	}
-
-	.recentUpdates {
-		float: left;
-		position: relative;
-		margin-top: 43px;
-		width: 100%;
-	}
-
-	.recentUpdates ul {
-		list-style-type: none;
-		margin-top: -10px;
-	}
-
-	.recentUpdates ul {
-		list-style-type: none;
-		margin-top: -10px;
-	}
-
-	.recentUpdates li {
-		padding-top: 24px;
-	}
-
-	.recentUpdates h2 {
-		text-transform: uppercase;
-		color: #454545;
-		font-size: 20px;
-	} 
-
-	.recentUpdates a {
-		text-decoration: none;
-		color: #454545;
-		margin-left: 78px; 
-	}
-
-	.recentUpdates p {
-		margin-left: 78px;
-
-	}
-
-	.li1:before {
-		content: url(../img/li1.png);
-		position: absolute;
-	}
-
-	.li2:before {
-		content: url(../img/li2.png);
-		position: absolute;
-	}
-
-	.li3:before {
-		content: url(../img/li3.png);
-		position: absolute;
-	}
-
-	.more_blog a{
-		padding-left: 59px;
-	}
-
-	.line {
-		border-top: 1px solid #e6e6e6;
-	}
-
-	.brands img{
-		/*float: left;*/
-	}
-
-	footer {
-		position: relative;
-		overflow: hidden;
-		background-image: url(../img/footer.png);
-		height: 112px;
-		text-align: center;
-	}
-
-	.maker {
-		margin-top: 46px;
-		color: #ffffff;
-		
-	}
-
-	.bold {
-		font-weight: bold;
-		padding-left: 4px;
-	}
-
-	@media only screen and (min-width: 320px) and (max-width: 480){
-		.menu {
-			display: none;
+		.radio {
+			margin-left: 123px;
+			/*padding-top: 82px;*/
 		}
 	}
