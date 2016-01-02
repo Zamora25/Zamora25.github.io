@@ -278,5 +278,36 @@
 			font-weight: bold;
 		}
 
-		
+		.brands {
+			display: inline-block;
+			margin-top: 143px;
+			margin-left: 62px;
+			margin-left: 62px;
+		}
+
+		.brands img{
+			margin-top: 60px;
+			margin-left: 62px;
+			margin-left: 62px;
+		}
+
+		footer {
+			margin-top: 180px;
+			position: relative;
+			overflow: hidden;
+			background-image: url(../img/footer.png);
+			height: 112px;
+		}
+
+		.maker {
+			position: absolute;
+			color: #ffffff;
+			margin-top: 40px;
+			margin-left: 92px;
+		}
+
+		.bold {
+			font-weight: bold;
+		}
+
 	}
