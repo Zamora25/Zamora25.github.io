@@ -5,11 +5,20 @@
 
 /*..........................................................width 320px.................................................*/
 
-		@media screen and (max-width: 480px) and (min-width: 320px) {
+		/*@media screen and (max-width: 480px) and (min-width: 320px) {
 		body {
 			width: 100%;
 			margin: auto;
 			min-width: 320px;
+			max-width: 480px;
+		}*/
+
+		@media screen and (max-width: 480px) {
+
+			body {
+			width: 100%;
+			margin: auto;
+			/*min-width: 320px;*/
 			max-width: 480px;
 		}
 
@@ -47,6 +56,10 @@
 			border: 2px solid #edbfff;
 			margin-left: 137px;
 			margin-top: 8px;
+		}
+
+		.menu {
+			display: none;
 		}
 
 		.flash {
@@ -309,5 +322,46 @@
 		.bold {
 			font-weight: bold;
 		}
-
 	}
+
+/*..........................................................width 480px.................................................*/
+
+		@media (min-width: 480px) and (max-width: 768px) {
+		body {
+			width: 100%;
+			margin: auto;
+			min-width: 480px;
+			max-width: 768px;
+		}
+
+
+		.wrupper {
+			width: 480px;
+			margin: auto;
+		}
+
+		.home {
+			display: none;
+		}
+
+		.menu {
+			width: 243px;
+			margin-left: 112px;
+			background: rgba( 63, 50, 71, 0.65);
+			margin-top: 17px;
+			height: 258px;
+			border-radius: 7px;
+		}
+
+		.menu__item {
+			float: none;
+			margin-left: 0;
+			text-align: center;
+			padding: 10px;
+			border-bottom: 2px solid #523e5a;
+		}
+
+		.menu__item:hover {
+			background: rgba( 43, 34, 49, 0.65);
+			border-bottom: 2px solid #edbfff;
+		}
