@@ -462,6 +462,7 @@
 			text-align: center;
 			padding: 10px;
 			border-bottom: 2px solid #523e5a;
+			list-style-type: none;
 		}
 
 		.menu__item:hover {

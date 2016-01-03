@@ -5,23 +5,15 @@
 
 /*..........................................................width 320px.................................................*/
 
-		/*@media screen and (max-width: 480px) and (min-width: 320px) {
+		@media screen and (max-width: 480px) and (min-width: 320px) {
 		body {
 			width: 100%;
 			margin: auto;
 			min-width: 320px;
 			max-width: 480px;
-		}*/
-
-		@media screen and (max-width: 480px) {
-
-			body {
-			width: 100%;
-			margin: auto;
-			/*min-width: 320px;*/
-			max-width: 480px;
 		}
 
+		
 		.wrupper {
 			width: 320px;
 			margin: auto;
@@ -40,7 +32,7 @@
 
 		.home a{
 			text-transform: uppercase;
-			font-size: 18px;
+			font-size: 12px;
 			text-decoration: none;
 			color: #ffffff;
 			font-weight: bold;
@@ -48,12 +40,12 @@
 
 		.home {
 			margin-left: 143px;
-			margin-top: 41px;
+			margin-top: 32px;
 		}
 
 		.underline {
 			width: 47px;
-			border: 2px solid #edbfff;
+			border: 1px solid #edbfff;
 			margin-left: 137px;
 			margin-top: 8px;
 		}
@@ -62,10 +54,15 @@
 			display: none;
 		}
 
+		.iphone {
+			display: none;
+		}
+
+
 		.flash {
 			position: relative;
 			overflow: hidden;
-			margin-top: 124px;
+			margin-top: 134px;
 		}
 
 		.pointerLeft {
@@ -74,8 +71,8 @@
 
 		.flash__box1 {
 			float: left;
-			margin-left: 45px;
-			margin-right: 31px;
+			margin-left: 44px;
+			margin-right: 32px;
 		}
 
 		.flash__box1 h1 {
@@ -89,6 +86,9 @@
 			font-size: 14px;
 			text-transform: uppercase;
 			color: #edbfff;
+			height: 12px;
+			overflow: hidden;
+			width: 200px;
 		}
 
 		.pointerRight {
@@ -131,6 +131,7 @@
 			position: relative;
 			overflow: hidden;
 			background-color: #4a3454;
+			height: 599px;
 		}
 
 		.aboutCompany {
@@ -144,16 +145,17 @@
 		}
 
 		.aboutCompany__item p {
-			margin-left: 58px;
+			margin-left: 85px;
 			float: left;
 			position: relative;
 			overflow: hidden;
 			line-height: 22px;
 			height: 60px;
+			width: 202px;
 		}
 
 		.aboutCompany__item h2 {
-			margin-left: 58px;
+			margin-left: 85px;
 			font-size: 17px;
 			color: #ffffff;
 			text-transform: uppercase;
@@ -166,14 +168,14 @@
 	    	content: '';
 	   	 	display: inline-block;
 	   	 	position: absolute;
-	   	 	margin-left: -25px;
+	   	 	margin-left: -54px;
 		}
 
-		.read_more {
+		.read_more1 {
 			margin-top: 22px;
 		}
 
-		.read_more a{
+		.read_more1 a{
 			margin-left: 180px;
 		}
 
@@ -182,6 +184,7 @@
 			color: #ffffff;
 			text-decoration: none;
 			font-size: 14px;
+			margin-left: 115px;
 		}
 
 		.news_top {
@@ -205,8 +208,9 @@
 
 		.man img {
 			float: left;
-			margin-top: -17px;
+			margin-top: -8px;
 			position: absolute;
+			margin-left: 21px;
 		}
 
 		.news_top p {
@@ -227,21 +231,20 @@
 		}
 
 		.recentUpdates {
-			float: left;
 			position: relative;
-			margin-top: 128px;
-			margin-left: 75px;
+			margin-top: 58px;
+			/*margin-left: 75px;*/
 	}
 
 		.recentUpdates ul {
 			list-style-type: none;
-			margin-top: 1px;
-			line-height: 24px;
-			margin-left: 20px;
+			margin-top: 14px;
+			line-height: 18px;
+			padding-left: 20px;
 	}
 
 		.recentUpdates li {
-			padding-top: 24px;
+			padding-top: 16px;
 		}
 
 		.recentUpdates h2 {
@@ -292,20 +295,16 @@
 		}
 
 		.brands {
-			display: inline-block;
-			margin-top: 143px;
-			margin-left: 62px;
-			margin-left: 62px;
+			margin-top: 124px;
 		}
 
 		.brands img{
-			margin-top: 60px;
-			margin-left: 62px;
-			margin-left: 62px;
+			margin-top: 48px;
+			padding-left: 59px;
 		}
 
 		footer {
-			margin-top: 180px;
+			margin-top: 173px;
 			position: relative;
 			overflow: hidden;
 			background-image: url(../img/footer.png);
@@ -334,6 +333,12 @@
 			max-width: 768px;
 		}
 
+		header {
+			width: 100%;
+			position: relative;
+			overflow: hidden;
+			background-image: url(../img/bg.jpg);
+		}
 
 		.wrupper {
 			width: 480px;
@@ -346,11 +351,12 @@
 
 		.menu {
 			width: 243px;
-			margin-left: 112px;
-			background: rgba( 63, 50, 71, 0.65);
-			margin-top: 17px;
+			margin-left: 117px;
+			background: rgba( 63, 50, 71, 0.80);
+			margin-top: 25px;
 			height: 258px;
 			border-radius: 7px;
+			position: absolute;
 		}
 
 		.menu__item {
@@ -359,9 +365,297 @@
 			text-align: center;
 			padding: 10px;
 			border-bottom: 2px solid #523e5a;
+			list-style-type: none;
+		}
+
+		.menu__item a {
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #ffffff;
 		}
 
 		.menu__item:hover {
 			background: rgba( 43, 34, 49, 0.65);
 			border-bottom: 2px solid #edbfff;
 		}
+
+		.logo {
+			margin-left: 165px;
+		}
+
+		.flash1 {
+			width: 100%;
+			height: 396px;
+			margin-top: 100px;
+			background: rgba( 16, 15, 15, 0.15);
+		}
+
+		/*.flash {
+			position: absolute;
+   		}*/
+
+		.pointerLeft {
+			float: left;
+			padding-top: 189px;
+		}
+
+		.flash__box1 {
+			float: left;
+			margin-left: 17px;
+			padding-top: 189px;
+			
+		}
+
+		.flash__box1 h1 {
+			font-size: 20px;
+			text-transform: capitalize;
+			color: #fefefe;
+
+		}
+
+		.flash__box1 h2 {
+			font-size: 9px;
+			text-transform: uppercase;
+			color: #edbfff;
+			height: 12px;
+			overflow: hidden;
+			width: 221px;
+		}
+
+		.iphone img{
+			height: 303px;
+			width: 186px;
+			padding-top: 100px;
+		}
+
+		.pointerRight img {
+			position: absolute;
+			top: 250px;
+    		left: 600px;
+		}
+
+		.radio .radio_part, .radio1 {
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 11px;
+		    line-height: 14px;
+		    min-width: 14px;
+		    background: rgba(0, 0, 0, 0.75);
+		    color: #3b3942;
+		    border-radius: 14px;
+		    padding: 3px;
+		    text-align: center;
+		    margin-right: 1px;
+		    margin-top: 0px;
+		    opacity: .75;
+		    padding-top: 5px 5px 5px 5px;
+		    width: 11px;
+		    height: 14px;
+		}
+
+		.radio .radio_part .active{
+		    background: #4E443C;
+		    color: #fff;
+		    opacity: 1;
+		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+		} 
+
+		.radio {
+			margin-left: 195px;
+			margin-top: 27px;
+			padding-bottom: 68px;
+		}
+
+		section {
+			position: relative;
+			overflow: hidden;
+			background-color: #4a3454;
+			height: 599px;
+		}
+
+		.aboutCompany {
+			float: left;
+			list-style-type: none;
+			margin-top: 72px;
+		}
+
+		.aboutCompany__item {
+			float: left;
+		}
+
+		.aboutCompany__item p {
+			margin-left: 85px;
+			float: left;
+			position: relative;
+			overflow: hidden;
+			line-height: 22px;
+			height: 60px;
+			width: 202px;
+		}
+
+		.aboutCompany__item h2 {
+			margin-left: 85px;
+			font-size: 17px;
+			color: #ffffff;
+			text-transform: uppercase;
+		}
+
+		.aboutCompany__item h2:before {
+			background: url(../img/sprite.png)0 0 no-repeat;
+			width:30px;
+	    	height:30px;
+	    	content: '';
+	   	 	display: inline-block;
+	   	 	position: absolute;
+	   	 	margin-left: -54px;
+		}
+
+		.read_more1 {
+			margin-top: 22px;
+		}
+
+		.read_more1 a{
+			margin-left: 180px;
+		}
+
+		.aboutCompany__item a{
+			text-transform: uppercase;
+			color: #ffffff;
+			text-decoration: none;
+			font-size: 14px;
+			margin-left: 115px;
+		}
+
+		.news_top {
+			margin-left: 80px;
+		}
+
+		.news_top h2 {
+			text-transform: uppercase;
+			color: #454545;
+			font-size: 20px;
+			width: 150px;
+			margin-top: 97px;
+		}
+
+		.news_top h2 span {
+			text-transform: uppercase;
+			color: #454545;
+			font-size: 20px;
+			color: #edbfff;
+		}
+
+		.man img {
+			float: left;
+			margin-top: -8px;
+			position: absolute;
+			margin-left: 21px;
+		}
+
+		.news_top p {
+			color: #454545;
+			line-height: 25px;
+			position: relative;
+			overflow: hidden;
+			height: 152px;
+		}
+
+		.radio1 {
+			display: none;
+		}
+
+		.radio2 .radio_part {
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 11px;
+		    line-height: 14px;
+		    min-width: 14px;
+		    background: rgba(0, 0, 0, 0.75);
+		    color: #3b3942;
+		    border-radius: 14px;
+		    padding: 3px;
+		    text-align: center;
+		    margin-right: 1px;
+		    margin-top: 0px;
+		    opacity: .75;
+		    padding-top: 5px 5px 5px 5px;
+		    width: 11px;
+		    height: 14px;
+		}
+
+		.radio2 .radio_part .active{
+		    background: #4E443C;
+		    color: #fff;
+		    opacity: 1;
+		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+		} 
+
+		.radio2 {
+			margin-left: 123px;
+			margin-top: 82px;
+			padding-bottom: 68px;
+		}
+
+		.recentUpdates {
+			position: relative;
+			margin-top: 58px;
+		}
+
+		.recentUpdates ul {
+			list-style-type: none;
+			margin-top: 14px;
+			line-height: 18px;
+			padding-left: 20px;
+		}
+
+		.recentUpdates li {
+			padding-top: 16px;
+		}
+
+		.recentUpdates h2 {
+			text-transform: uppercase;
+			color: #454545;
+			font-size: 20px;
+			margin-left: 20px;
+		} 
+
+		.recentUpdates a {
+			text-decoration: none;
+			color: #454545;
+			font-weight: bold;
+			margin-left: 64px; 
+		}
+
+		.recentUpdates p {
+			margin-left: 65px;
+
+		}
+
+		.li1:before {
+			content: url(../img/li1.png);
+			position: absolute;
+			margin-top: -1px;
+		}
+
+		.li2:before {
+			content: url(../img/li2.png);
+			position: absolute;
+			margin-top: -5px;
+		}
+
+		.li3:before {
+			content: url(../img/li3.png);
+			position: absolute;
+			margin-top: -13px;
+		}
+
+		.read_more a{
+			color: #454545;
+			margin-left: 140px;
+			text-transform: uppercase;
+			font-size: 12px;
+			position: absolute;
+			margin-top: 14px;
+			font-weight: bold;
+		}
+
