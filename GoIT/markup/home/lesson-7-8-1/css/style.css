@@ -70,6 +70,13 @@
 			display: none;
 		}
 
+		.radio2  {
+			display: none;
+		}
+
+		.flash__box1 p {
+			display: none;
+		}
 
 		.flash {
 			position: relative;
@@ -361,11 +368,15 @@
 			display: none;
 		}
 
+		.flash__box1 p {
+			display: none;
+		}
+
 		.menu {
 			width: 243px;
-			margin-left: 117px;
+			margin-left: 121px;
 			background: rgba( 63, 50, 71, 0.80);
-			margin-top: 25px;
+			margin-top: 17px;
 			height: 258px;
 			border-radius: 7px;
 			position: absolute;
@@ -402,13 +413,13 @@
 			background: rgba( 16, 15, 15, 0.15);
 		}
 
-		/*.flash {
-			position: absolute;
-   		}*/
+		.flash {
+			margin-top: -499px;
+   		}
 
 		.pointerLeft {
 			float: left;
-			padding-top: 189px;
+			padding-top: 195px;
 		}
 
 		.flash__box1 {
@@ -437,13 +448,13 @@
 		.iphone img{
 			height: 303px;
 			width: 186px;
-			padding-top: 100px;
+			padding-top: 80px;
+			padding-left: 4px;
 		}
 
 		.pointerRight img {
-			position: absolute;
-			top: 250px;
-    		left: 600px;
+			float: right;
+			margin-top: -192px;
 		}
 
 		.radio .radio_part, .radio1 {
@@ -473,9 +484,9 @@
 		} 
 
 		.radio {
-			margin-left: 195px;
-			margin-top: 27px;
-			padding-bottom: 68px;
+			margin-left: 199px;
+			margin-top: -30px;
+			padding-bottom: 57px;
 		}
 
 		section {
@@ -502,7 +513,8 @@
 			overflow: hidden;
 			line-height: 22px;
 			height: 60px;
-			width: 202px;
+			width: 357px;
+			color: #ffffff;
 		}
 
 		.aboutCompany__item h2 {
@@ -535,7 +547,7 @@
 			color: #ffffff;
 			text-decoration: none;
 			font-size: 14px;
-			margin-left: 115px;
+			margin-left: 275px;
 		}
 
 		.news_top {
@@ -546,7 +558,6 @@
 			text-transform: uppercase;
 			color: #454545;
 			font-size: 20px;
-			width: 150px;
 			margin-top: 97px;
 		}
 
@@ -572,9 +583,9 @@
 			height: 152px;
 		}
 
-		.radio1 {
+		/*.radio1 {
 			display: none;
-		}
+		}*/
 
 		.radio2 .radio_part {
 		    text-decoration: none;
@@ -602,10 +613,13 @@
 		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 		} 
 
-		.radio2 {
-			margin-left: 123px;
-			margin-top: 82px;
-			padding-bottom: 68px;
+		.radio1 {
+			margin-left: 227px;
+			margin-top: 92px;
+		}
+
+		.radio1 li{
+			list-style-type: none;
 		}
 
 		.recentUpdates {
@@ -615,13 +629,13 @@
 
 		.recentUpdates ul {
 			list-style-type: none;
-			margin-top: 14px;
-			line-height: 18px;
-			padding-left: 20px;
+			margin-top: -4px;
+			line-height: 19px;
+			padding-left: 86px;
 		}
 
 		.recentUpdates li {
-			padding-top: 16px;
+			padding-top: 29px;
 		}
 
 		.recentUpdates h2 {
@@ -639,8 +653,10 @@
 		}
 
 		.recentUpdates p {
-			margin-left: 65px;
-
+			margin-left: 68px;
+			overflow: hidden;
+		    width: 245px;
+		    height: 22px;
 		}
 
 		.li1:before {
@@ -663,7 +679,7 @@
 
 		.read_more a{
 			color: #454545;
-			margin-left: 140px;
+			margin-left: 243px;
 			text-transform: uppercase;
 			font-size: 12px;
 			position: absolute;
@@ -671,24 +687,58 @@
 			font-weight: bold;
 		}
 
+		.brands {
+			margin-top: 138px;
+			margin-left: 41px;
+		}
+
+		.brands img {
+			margin-left: 52px;
+		}
+
 		.new_categories {
 			background-color: #ececec;
 			width: 100%;
 			height: 667px;
+			margin-top: 49px;
+		}
+
+		.new_categories h2 {
+			text-transform: uppercase;
+			font-size: 19px;
+		}
+
+		.box1 {
+			padding-top: 77px;
+		    padding-left: 21px;
+		}
+
+		.box2 {
+			padding-top: 86px;
+   			padding-left: 21px;
+		}
+
+		.box3 {
+			padding-top: 86px;
+   			padding-left: 21px;
 		}
 
 		footer {
 			position: relative;
 			overflow: hidden;
-			background-image: url(../img/footer.png);
-			height: 112px;
+			background-image: url(../img/footer1.png);
+			height: 200px;
+		}
+
+		.menu_footer {
+			margin-left: -21px;
 		}
 
 		.menu_footer li {
 			float: left;
 			list-style-type: none;
 			margin-top: 46px;
-			padding-left: 18px;
+			padding-left: 14px;
 		}
 
 		.menu_footer a{
@@ -698,22 +748,330 @@
 			color: #ffffff;
 		}
 
-		/*.maker {
-			padding-left: 296px;
-			position: absolute;
-			margin-top: 46px;
-			color: #ffffff;
-		}*/
+		span.maker {
+		   	display: inline-block;
+		    margin-top: 34px;
+		    margin-left: 173px;
+		    color: #ffffff;
+		}
 
 		.bold {
 			font-weight: bold;
 			padding-left: 4px;
 		}
+	}
 
-		.designed_by {
+/*...........................................................width768px.................................................*/
+
+		
+@media (min-width: 768px) and (max-width: 960px) {
+		body {
+			width: 100%;
+			margin: auto;
+			min-width: 768px;
+			max-width: 960px;
+		}
+
+		header {
+			width: 100%;
+			position: relative;
+			overflow: hidden;
+			background-image: url(../img/bg.jpg);
+		}
+
+		.wrupper {
+			width: 768px;
+			margin: auto;
+		}
+
+		.home {
+			display: none;
+		}
+
+		.menu {
+			float: left;
+			margin-top: 38px;
+			margin-left: 20px;		
+		}
+
+		.logo {
+			margin-left: 20px;
+		}
+
+	
+		.menu__item {
+			float: left;
+			list-style-type: none;
+			margin-left: 32px;		
+		}
+
+		.mеnu__link {
+			text-transform: uppercase;
+			color: #ffffff;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 16px;
+		}
+
+		.mеnu__link:hover {
+			text-decoration: underline;
+		}
+
+		.flash1 {
+			width: 100%;
+			height: 396px;
+			margin-top: 100px;
+			background: rgba( 16, 15, 15, 0.15);
+		}
+
+		.flash {
+			margin-top: -499px;
+   		}
+
+		.pointerLeft {
+			float: left;
+			padding-top: 195px;
+		}
+
+		.flash__box1 {
+			float: left;
+			margin-left: 17px;
+			padding-top: 189px;
 			
 		}
 
+		.flash__box1 h1 {
+			font-size: 20px;
+			text-transform: capitalize;
+			color: #fefefe;
 
+		}
 
+		.flash__box1 h2 {
+			font-size: 9px;
+			text-transform: uppercase;
+			color: #edbfff;
+			height: 12px;
+			overflow: hidden;
+			width: 221px;
+		}
+
+		.flash__box1 p {
+			width: 267px;
+		}
+
+		.iphone img{
+			height: 303px;
+			width: 186px;
+			padding-top: 80px;
+			padding-left: 4px;
+		}
+
+		.pointerRight img {
+			float: right;
+			margin-top: -192px;
+		}
+
+		.radio .radio_part, .radio1 {
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 11px;
+		    line-height: 14px;
+		    min-width: 14px;
+		    background: rgba(0, 0, 0, 0.75);
+		    color: #3b3942;
+		    border-radius: 14px;
+		    padding: 3px;
+		    text-align: center;
+		    margin-right: 1px;
+		    margin-top: 0px;
+		    opacity: .75;
+		    padding-top: 5px 5px 5px 5px;
+		    width: 11px;
+		    height: 14px;
+		}
+
+		.radio .radio_part .active{
+		    background: #4E443C;
+		    color: #fff;
+		    opacity: 1;
+		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+		} 
+
+		.radio {
+			margin-left: 199px;
+			margin-top: -30px;
+			padding-bottom: 57px;
+		}
+
+		section {
+			position: relative;
+			overflow: hidden;
+			background-color: #4a3454;
+			height: 350px;
+		}
+
+		.aboutCompany {
+			float: left;
+			list-style-type: none;
+			margin-top: 72px;
+		}
+
+		.aboutCompany__item {
+			float: left;
+			width: 32%;
+		}
+
+		.aboutCompany__item p {
+			margin-left: 85px;
+			float: left;
+			position: relative;
+			overflow: hidden;
+			line-height: 22px;
+			height: 60px;
+			width: 149px;
+			color: #ffffff;
+		}
+
+		.aboutCompany__item h2 {
+			margin-left: 85px;
+			font-size: 13px;
+			color: #ffffff;
+			text-transform: uppercase;
+		}
+
+		.aboutCompany__item h2:before {
+			background: url(../img/sprite.png)0 0 no-repeat;
+			width:30px;
+	    	height:30px;
+	    	content: '';
+	   	 	display: inline-block;
+	   	 	position: absolute;
+	   	 	margin-left: -54px;
+		}
+
+		.read_more1 {
+			margin-top: 22px;
+		}
+
+		.read_more1 a{
+			margin-left: 59px;
+		}
+
+		.aboutCompany__item a{
+			text-transform: uppercase;
+			color: #ffffff;
+			text-decoration: none;
+			font-size: 14px;
+			
+		}
+
+		.news_top {
+			margin-left: 80px;
+		}
+
+		.news_top h2 {
+			text-transform: uppercase;
+			color: #454545;
+			font-size: 20px;
+			margin-top: 97px;
+		}
+
+		.news_top h2 span {
+			text-transform: uppercase;
+			color: #454545;
+			font-size: 20px;
+			color: #edbfff;
+		}
+
+		.man img {
+			float: left;
+			margin-top: -8px;
+			position: absolute;
+			margin-left: 21px;
+		}
+
+		.news_top p {
+			color: #454545;
+			line-height: 25px;
+			position: relative;
+			overflow: hidden;
+			height: 152px;
+		}
+
+		.radio1 {
+			margin-left: 227px;
+			margin-top: 92px;
+		}
+
+		.radio1 li{
+			list-style-type: none;
+		}
+
+		.recentUpdates {
+			position: relative;
+			margin-top: 58px;
+		}
+
+		.recentUpdates ul {
+			list-style-type: none;
+			margin-top: -4px;
+			line-height: 19px;
+			padding-left: 86px;
+		}
+
+		.recentUpdates li {
+			padding-top: 29px;
+		}
+
+		.recentUpdates h2 {
+			text-transform: uppercase;
+			color: #454545;
+			font-size: 20px;
+			margin-left: 20px;
+		} 
+
+		.recentUpdates a {
+			text-decoration: none;
+			color: #454545;
+			font-weight: bold;
+			margin-left: 64px; 
+		}
+
+		.recentUpdates p {
+			margin-left: 68px;
+			overflow: hidden;
+		    width: 245px;
+		    height: 22px;
+		}
+
+		.li1:before {
+			content: url(../img/li1.png);
+			position: absolute;
+			margin-top: -1px;
+		}
+
+		.li2:before {
+			content: url(../img/li2.png);
+			position: absolute;
+			margin-top: -5px;
+		}
+
+		.li3:before {
+			content: url(../img/li3.png);
+			position: absolute;
+			margin-top: -13px;
+		}
+
+		.read_more a{
+			color: #454545;
+			margin-left: 243px;
+			text-transform: uppercase;
+			font-size: 12px;
+			position: absolute;
+			margin-top: 14px;
+			font-weight: bold;
+		}
+
+}
 
