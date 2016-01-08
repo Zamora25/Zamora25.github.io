@@ -70,11 +70,15 @@
 			display: none;
 		}
 
-		/*.radio2  {
+		.copyright {
 			display: none;
-		}*/
+		}
 
 		.flash__box1 p {
+			display: none;
+		}
+
+		.pigbull {
 			display: none;
 		}
 
@@ -114,21 +118,19 @@
 			float: left;
 		}
 
-		.radio .radio_part, .radio1 {
-		    text-decoration: none;
+		.radio .radio_part {
 		    display: inline-block;
-		    font-size: 11px;
-		    line-height: 14px;
-		    min-width: 14px;
+		    font-size: 25px;
+		    line-height: 9px;
+		    min-width: 15px;
 		    background: rgba(0, 0, 0, 0.75);
 		    color: #3b3942;
-		    border-radius: 14px;
-		    padding: 3px;
+		    border-radius: 27px;
+		    padding: 5px;
 		    text-align: center;
-		    margin-right: 1px;
+		    margin-right: 0px;
 		    margin-top: 0px;
 		    opacity: .75;
-		    padding-top: 5px 5px 5px 5px;
 		    width: 11px;
 		    height: 14px;
 		}
@@ -151,6 +153,36 @@
 			overflow: hidden;
 			background-color: #4a3454;
 			height: 599px;
+		}
+
+		.radio_one .radio_part {
+			display: inline-block;
+		    font-size: 25px;
+		    line-height: 9px;
+		    min-width: 15px;
+		    background: rgba(0, 0, 0, 0.75);
+		    color: #3b3942;
+		    border-radius: 27px;
+		    padding: 5px;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-top: 0px;
+		    opacity: .75;
+		    width: 11px;
+		    height: 14px;
+		}
+
+		.radio_one .radio_part .active{
+		    background: #4E443C;
+		    color: #fff;
+		    opacity: 1;
+		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+		} 
+
+		.radio_one {
+			margin-left: 107px;
+			margin-top: 70px;
+			padding-bottom: 56px;
 		}
 
 		.aboutCompany {
@@ -206,9 +238,26 @@
 			margin-left: 115px;
 		}
 
+		.news {
+			float: left;
+    		width: 94%;
+    		background-image: url(../img/man.jpg);
+    		height: 290px;
+    		margin-top: 68px;
+    		margin-left: 20px;
+		}
+
+		.news_recentUpdates {
+			position: relative;
+			overflow: hidden;
+			background-color: #f9f9f9;
+			height: 743px;
+		}
+
 		.news_top {
-			margin-left: 80px;
-			width: 280px;
+			margin-left: 60px;
+		    width: 198px;
+		    margin-top: -74px;
 		}
 
 		.news_top h2 {
@@ -227,13 +276,6 @@
 			color: #edbfff;
 		}
 
-		.man img {
-			float: left;
-			margin-top: -8px;
-			position: absolute;
-			margin-left: 21px;
-		}
-
 		.news_top p {
 			color: #454545;
 			line-height: 25px;
@@ -242,27 +284,16 @@
 			height: 152px;
 		}
 
-		.radio1 {
-			margin-left: 165px;
-			margin-top: 58px;
-		}
-
-		.radio1 li{
-			list-style-type: none;
-		}
-
 		.recentUpdates {
-			position: relative;
-			margin-top: 58px;
-			margin-top: 122px;
-			/*margin-left: 75px;*/
-	}
+			float: left;
+			margin-top: 71px;
+		}		
 
 		.recentUpdates ul {
 			list-style-type: none;
-			margin-top: 14px;
+			margin-top: 9px;
 			line-height: 18px;
-			padding-left: 65px;
+			padding-left: 20px;
 	}
 
 		.recentUpdates li {
@@ -273,7 +304,7 @@
 			text-transform: uppercase;
 			color: #454545;
 			font-size: 20px;
-			margin-left: 63px;
+			margin-left: 18px;
 		} 
 
 		.recentUpdates a {
@@ -317,7 +348,9 @@
 		}
 
 		.brands {
-			margin-top: 124px;
+			background-color: #f9f9f9;
+			padding-top: 81px;
+			padding-bottom: 55px;
 		}
 
 		.brands img{
@@ -375,9 +408,14 @@
 			display: none;
 		}
 
-		/*.radio2 {
+		.pigbull {
 			display: none;
-		}*/
+		}
+
+		.copyright {
+			display: none;
+		}
+
 
 		.menu {
 			width: 243px;
@@ -465,20 +503,18 @@
 		}
 
 		.radio .radio_part {
-		    text-decoration: none;
 		    display: inline-block;
-		    font-size: 11px;
-		    line-height: 14px;
-		    min-width: 14px;
+		    font-size: 25px;
+		    line-height: 9px;
+		    min-width: 15px;
 		    background: rgba(0, 0, 0, 0.75);
 		    color: #3b3942;
-		    border-radius: 14px;
-		    padding: 3px;
+		    border-radius: 27px;
+		    padding: 5px;
 		    text-align: center;
-		    margin-right: 1px;
+		    margin-right: 0px;
 		    margin-top: 0px;
 		    opacity: .75;
-		    padding-top: 5px 5px 5px 5px;
 		    width: 11px;
 		    height: 14px;
 		}
@@ -501,6 +537,22 @@
 			overflow: hidden;
 			background-color: #4a3454;
 			height: 599px;
+		}
+
+		.news_recentUpdates {
+			position: relative;
+			overflow: hidden;
+			background-color: #f9f9f9;
+			height: 743px;
+		}
+
+		.news {
+			float: left;
+    		width: 94%;
+    		background-image: url(../img/man.jpg);
+    		height: 290px;
+    		margin-top: 71px;
+    		margin-left: 26px;
 		}
 
 		.aboutCompany {
@@ -558,7 +610,9 @@
 		}
 
 		.news_top {
-			margin-left: 80px;
+			margin-left: 63px;
+			margin-top: -66px;
+    		width: 360px;
 		}
 
 		.news_top h2 {
@@ -588,57 +642,49 @@
 			position: relative;
 			overflow: hidden;
 			height: 152px;
+			margin-top: 16px;
 		}
 
-		/*.radio1 {
-			display: none;
-		}*/
-
-		.radio2 .radio_part {
-		    text-decoration: none;
-		    display: inline-block;
-		    font-size: 11px;
-		    line-height: 14px;
-		    min-width: 14px;
+		.radio_one .radio_part {
+			display: inline-block;
+		    font-size: 25px;
+		    line-height: 9px;
+		    min-width: 15px;
 		    background: rgba(0, 0, 0, 0.75);
 		    color: #3b3942;
-		    border-radius: 14px;
-		    padding: 3px;
+		    border-radius: 27px;
+		    padding: 5px;
 		    text-align: center;
-		    margin-right: 1px;
+		    margin-right: 0px;
 		    margin-top: 0px;
 		    opacity: .75;
-		    padding-top: 5px 5px 5px 5px;
 		    width: 11px;
 		    height: 14px;
 		}
 
-		.radio2 .radio_part .active{
+		.radio_one .radio_part .active{
 		    background: #4E443C;
 		    color: #fff;
 		    opacity: 1;
 		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 		} 
 
-		.radio1 {
-			margin-left: 227px;
-			margin-top: 92px;
+		.radio_one {
+			margin-left: 175px;
+			margin-top: 70px;
+			padding-bottom: 56px;
 		}
-
-		.radio1 li{
-			list-style-type: none;
-		}
-
+		
 		.recentUpdates {
-			position: relative;
-			margin-top: 58px;
+			float: left;
+			margin-top: 70px;
 		}
 
 		.recentUpdates ul {
 			list-style-type: none;
 			margin-top: -4px;
 			line-height: 19px;
-			padding-left: 86px;
+			padding-left: 90px;
 		}
 
 		.recentUpdates li {
@@ -649,7 +695,7 @@
 			text-transform: uppercase;
 			color: #454545;
 			font-size: 20px;
-			margin-left: 20px;
+			margin-left: 89px;
 		} 
 
 		.recentUpdates a {
@@ -695,19 +741,20 @@
 		}
 
 		.brands {
-			margin-top: 138px;
-			margin-left: 41px;
+			background-color: #f9f9f9;
+			padding-top: 81px;
+			padding-bottom: 55px;
 		}
+		
 
 		.brands img {
-			margin-left: 52px;
+			margin-left: 65px;
 		}
 
 		.new_categories {
 			background-color: #ececec;
 			width: 100%;
 			height: 667px;
-			margin-top: 49px;
 		}
 
 		.new_categories h2 {
@@ -795,7 +842,12 @@
 			display: none;
 		}
 
-		.radio1 {
+
+		.pigbull {
+			display: none;
+		}
+
+		.copyright {
 			display: none;
 		}
 
@@ -845,7 +897,7 @@
 			float: left;
 			margin-left: 22px;
 			padding-top: 207px;
-			
+			color: #ffffff;
 		}
 
 		.flash__box1 h1 {
@@ -885,20 +937,18 @@
 		}
 
 		.radio .radio_part, .radio1 {
-		    text-decoration: none;
 		    display: inline-block;
-		    font-size: 11px;
-		    line-height: 14px;
-		    min-width: 14px;
+		    font-size: 25px;
+		    line-height: 9px;
+		    min-width: 15px;
 		    background: rgba(0, 0, 0, 0.75);
 		    color: #3b3942;
-		    border-radius: 14px;
-		    padding: 3px;
+		    border-radius: 27px;
+		    padding: 5px;
 		    text-align: center;
-		    margin-right: 1px;
+		    margin-right: 0px;
 		    margin-top: 0px;
 		    opacity: .75;
-		    padding-top: 5px 5px 5px 5px;
 		    width: 11px;
 		    height: 14px;
 		}
@@ -913,20 +963,20 @@
 		.radio {
 			margin-left: 540px;
 			margin-top: 21px;
-			padding-bottom: 99px;
+			padding-bottom: 94px;
 		}
 
 		section {
 			position: relative;
 			overflow: hidden;
 			background-color: #4a3454;
-			height: 350px;
+			height: 341px;
 		}
 
 		.aboutCompany {
 			float: left;
 			list-style-type: none;
-			margin-top: 72px;
+			margin-top: 77px;
 		}
 
 		.aboutCompany__item {
@@ -1021,8 +1071,6 @@
 			margin-top: 92px;
 		}
 
-
-
 		.radio_block {
 			margin-top: 70px;
 		}
@@ -1041,7 +1089,7 @@
 			list-style-type: none;
 			margin-top: -4px;
 			line-height: 19px;
-			padding-left: 72px;
+			padding-left: 67px;
 		}
 
 		.recentUpdates li {
@@ -1052,8 +1100,8 @@
 			text-transform: uppercase;
 			color: #454545;
 			font-size: 20px;
-			margin-left: 83px;
-			margin-top: 22px;
+			margin-left: 67px;
+			margin-top: 29px;
 		} 
 
 		.recentUpdates a {
@@ -1110,25 +1158,56 @@
     		width: 43%;
     		background-image: url(../img/man.jpg);
     		height: 290px;
-    		margin-top: 92px;
-    		margin-left: 17px;
+    		margin-top: 101px;
+    		margin-left: 18px;
+		}
+
+		.radio_one .radio_part {
+			display: inline-block;
+		    font-size: 25px;
+		    line-height: 9px;
+		    min-width: 15px;
+		    background: rgba(0, 0, 0, 0.75);
+		    color: #3b3942;
+		    border-radius: 27px;
+		    padding: 5px;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-top: 0px;
+		    opacity: .75;
+		    width: 11px;
+		    height: 14px;
+		}
+
+		.radio_one .radio_part .active{
+		    background: #4E443C;
+		    color: #fff;
+		    opacity: 1;
+		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+		} 
+
+		.radio_one {
+			margin-left: 127px;
+			margin-top: 68px;
+			padding-bottom: 56px;
 		}
 
 		.brands {
-			margin-top: 52px;
-			margin-left: -10px;
+			background-color: #f9f9f9;
+			padding-top: 58px;
+			padding-bottom: 27px;
 		}
 
 		.brands img {
-			margin-left: 48px;
+			margin-left: 40px;
 		}
 
 		.new_categories {
 			background-color: #ececec;
 			position: relative;
 			overflow: hidden;
-			height: 372px;
-			margin-top: 49px;
+			height: 294px;
+			padding-top: 103px;
 		}
 
 		.new_categories h2 {
@@ -1137,7 +1216,6 @@
 		}
 
 		.box1 {
-			padding-top: 77px;
 		    padding-left: 21px;
 		    float: left;
 		    width: 25%;
@@ -1146,10 +1224,11 @@
 		.box1 p {
 			height: 147px;
     		overflow: hidden;
+    		margin-top: 13px;
+    		line-height: 21px;
 		}
 
 		.box2 {
-			padding-top: 76px;
    			padding-left: 74px;
    			float: left;
    			width: 25%;
@@ -1158,10 +1237,11 @@
 		.box2 p {
 			height: 147px;
     		overflow: hidden;
+    		margin-top: 13px;
+   			line-height: 21px;
 		}
 
 		.box3 {
-			padding-top: 74px;
    			padding-left: 72px;
    			float: left;
    			width: 25%;
@@ -1170,6 +1250,8 @@
 		.box3 p {
 			height: 147px;
     		overflow: hidden;
+    		margin-top: 13px;
+    		line-height: 21px;
 		}
 
 		footer {
@@ -1177,10 +1259,6 @@
 			overflow: hidden;
 			background-image: url(../img/footer1.png);
 			height: 200px;
-		}
-
-		.menu_footer {
-			margin-left: -21px;
 		}
 
 		.menu_footer li {
@@ -1240,11 +1318,23 @@
 		}
 
 		.menu {
-			margin-top: 35px;		
+			margin-top: 35px;
+			float: left;
+    		margin-left: 147px;		
+		}
+
+		.new_categories1 {
+			display: none;
 		}
 
 		.logo {
 			margin-left: 20px;
+			float: left;
+		}
+
+		.logoAndmenu {
+			position: relative;
+			overflow: hidden;
 		}
 
 		.menu__item {
@@ -1268,7 +1358,7 @@
 		.flash1 {
 			width: 100%;
 			height: 396px;
-			margin-top: 78px;
+			margin-top: 226px;
 			background: rgba( 16, 15, 15, 0.15);
 		}
 
@@ -1279,12 +1369,14 @@
 		.pointerLeft {
 			float: left;
 			padding-top: 286px;
+			position: absolute;
+    		right: 1326px;
 		}
 
 		.flash__box1 {
 			float: left;
-			margin-left: 22px;
-			padding-top: 207px;
+			
+			padding-top: 195px;
 			
 		}
 
@@ -1292,7 +1384,7 @@
 			font-size: 30px;
 			text-transform: capitalize;
 			color: #fefefe;
-
+			margin-left: 20px;
 		}
 
 		.flash__box1 h2 {
@@ -1301,44 +1393,45 @@
 			color: #edbfff;
 			height: 20px;
 			overflow: hidden;
-			width: 293px;
 			margin-top: 20px;
+			margin-left: 20px;
 		}
 
 		.flash__box1 p {
-			width: 265px;
-			height: 107px;
+			width: 505px;
 			overflow: hidden;
 			margin-top: 11px;
-   			line-height: 27px;
+   			line-height: 29px;
+   			font-size: 19px;
+   			color: #ffffff;
+   			margin-left: 20px;
 		}
 
 		.iphone img{
-			
-			padding-top: 80px;
+			padding-top: 86px;
 			padding-left: 110px;
 		}
 
 		.pointerRight img {
 			float: right;
 			margin-top: -232px;
+			position: absolute;
+   			left: 1326px;
 		}
 
-		.radio .radio_part, .radio1 {
-		    text-decoration: none;
-		    display: inline-block;
-		    font-size: 11px;
-		    line-height: 14px;
-		    min-width: 14px;
+		.radio .radio_part {
+			display: inline-block;
+		    font-size: 25px;
+		    line-height: 9px;
+		    min-width: 15px;
 		    background: rgba(0, 0, 0, 0.75);
 		    color: #3b3942;
-		    border-radius: 14px;
-		    padding: 3px;
+		    border-radius: 27px;
+		    padding: 5px;
 		    text-align: center;
-		    margin-right: 1px;
+		    margin-right: 0px;
 		    margin-top: 0px;
 		    opacity: .75;
-		    padding-top: 5px 5px 5px 5px;
 		    width: 11px;
 		    height: 14px;
 		}
@@ -1351,22 +1444,22 @@
 		} 
 
 		.radio {
-			margin-left: 540px;
-			margin-top: 21px;
-			padding-bottom: 99px;
+			margin-left: 720px;
+			margin-top: 67px;
+			padding-bottom: 56px;
 		}
 
 		section {
 			position: relative;
 			overflow: hidden;
 			background-color: #4a3454;
-			height: 350px;
+			height: 342px;
 		}
 
 		.aboutCompany {
 			float: left;
 			list-style-type: none;
-			margin-top: 72px;
+			margin-top: 83px;
 		}
 
 		.aboutCompany__item {
@@ -1382,11 +1475,12 @@
 			height: 132px;
 			line-height: 22px;
 			color: #ffffff;
+			margin-top: 11px;
 		}
 
 		.aboutCompany__item h2 {
 			margin-left: 85px;
-			font-size: 13px;
+			font-size: 18px;
 			color: #ffffff;
 			text-transform: uppercase;
 		}
@@ -1403,18 +1497,18 @@
 
 		.aboutCompany__item .chat:before  {
 			background-position: -30px ;
-	}
+		}
 
 		.aboutCompany__item .music:before {
 			background-position: -60px;
-	}
+		}
 
 		.aboutCompany__item a{
-		text-transform: uppercase;
-		color: #ffffff;
-		text-decoration: none;
-		margin-left: 174px;
-	}
+			text-transform: uppercase;
+			color: #ffffff;
+			text-decoration: none;
+			margin-left: 174px;
+		}
 
 
 		.read_more1 {
@@ -1422,7 +1516,7 @@
 		}
 
 		.read_more1 a{
-			margin-left: 59px;
+			margin-left: 138px;
 		}
 
 		.aboutCompany__item a{
@@ -1442,8 +1536,7 @@
 			text-transform: uppercase;
 			color: #454545;
 			font-size: 20px;
-			margin-top: 24px;
-			width: 150px;
+			margin-top: 32px;
 		}
 
 		.news_top h2 span {
@@ -1469,23 +1562,8 @@
 			line-height: 25px;
 			position: relative;
 			overflow: hidden;
-			height: 152px;
-			width: 241px;
 		}
 
-		.radio1 {
-			margin-top: 92px;
-		}
-
-
-
-		.radio_block {
-			margin-top: 70px;
-		}
-
-		.radio1 li{
-			list-style-type: none;
-		}
 
 		.recentUpdates {
 			float: left;
@@ -1497,7 +1575,7 @@
 			list-style-type: none;
 			margin-top: -4px;
 			line-height: 19px;
-			padding-left: 72px;
+			padding-left: 99px;
 		}
 
 		.recentUpdates li {
@@ -1508,8 +1586,8 @@
 			text-transform: uppercase;
 			color: #454545;
 			font-size: 20px;
-			margin-left: 83px;
-			margin-top: 22px;
+			margin-left: 96px;
+			margin-top: 29px;
 		} 
 
 		.recentUpdates a {
@@ -1552,6 +1630,7 @@
 			position: absolute;
 			margin-top: 14px;
 			font-weight: bold;
+			margin-left: 353px;
 		}
 
 		.news_recentUpdates {
@@ -1561,18 +1640,52 @@
 			height: 450px;
 		}
 
+		
+		.radio_one .radio_part {
+			display: inline-block;
+		    font-size: 25px;
+		    line-height: 9px;
+		    min-width: 15px;
+		    background: rgba(0, 0, 0, 0.75);
+		    color: #3b3942;
+		    border-radius: 27px;
+		    padding: 5px;
+		    text-align: center;
+		    margin-right: 0px;
+		    margin-top: 0px;
+		    opacity: .75;
+		    width: 11px;
+		    height: 14px;
+		}
+
+		.radio_one .radio_part .active{
+		    background: #4E443C;
+		    color: #fff;
+		    opacity: 1;
+		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+		} 
+
+		.radio_one {
+			margin-left: 184px;
+			margin-top: 39px;
+			padding-bottom: 56px;
+		}
+
+
 		.news {
 			float: left;
     		width: 43%;
     		background-image: url(../img/man.jpg);
     		height: 290px;
-    		margin-top: 92px;
-    		margin-left: 17px;
+    		margin-top: 99px;
+    		margin-left: 20px;
 		}
 
 		.brands {
-			margin-top: 52px;
-			margin-left: -10px;
+			padding-left: 132px;
+			background-color: #f9f9f9;
+			padding-top: 58px;
+			padding-bottom: 27px;
 		}
 
 		.brands img {
@@ -1584,12 +1697,12 @@
 			position: relative;
 			overflow: hidden;
 			height: 372px;
-			margin-top: 49px;
+			padding-top: 23px;
 		}
 
 		.new_categories h2 {
 			text-transform: uppercase;
-			font-size: 19px;
+			font-size: 25px;
 		}
 
 		.box1 {
@@ -1600,8 +1713,24 @@
 		}
 
 		.box1 p {
-			height: 147px;
     		overflow: hidden;
+		}
+
+		.new_categories1_text {
+			height: 110px;
+		}
+
+		.copyright {
+			font-style: italic;
+			color: #c9c9c9; 
+			opacity: 0.5;
+			margin-top: 8px;
+			height: 24px;
+		}
+
+		.box1 h2 span {
+			color: #b9b9b9;
+			font-size: 25px;
 		}
 
 		.box2 {
@@ -1631,8 +1760,8 @@
 		footer {
 			position: relative;
 			overflow: hidden;
-			background-image: url(../img/footer1.png);
-			height: 200px;
+			background-image: url(../img/footer.png);
+			height: 115px;
 		}
 
 		.menu_footer {
@@ -1654,9 +1783,9 @@
 		}
 
 		span.maker {
-		   	display: inline-block;
-		    margin-top: 34px;
-		    margin-left: 595px;
+		   	position: absolute;
+		    top: 52px;
+		    left: 1034px;
 		    color: #ffffff;
 		}
 
