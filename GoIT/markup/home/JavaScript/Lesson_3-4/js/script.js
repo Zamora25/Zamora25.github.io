@@ -23,16 +23,16 @@
     generateQuestions: function(guestionsAmount, answersAmount) { 
       for (var i = 0; i < guestionsAmount; i++) {
         var Question = this.createElement({
-          tagName: 'h2',
+          tagName: 'li',
           content: 'Вопрос №' + (i + 1),  
-          parentElement: form
+          parentElement: ol
       });
 
       for (var j = 0; j < answersAmount; j++) {
         var label = this.createElement({
         tagName: 'label',
         content: 'Вариант ответа №' + (j + 1),
-        parentElement: form
+        parentElement: ol
       });
 
         var checkbox = this.createElement({
@@ -41,33 +41,34 @@
         });
         
         label.insertAdjacentElement('afterBegin', checkbox);
+      },
+
+      initialize: function() {
+        var body = document.querySelector('body');
+
+        app.createElement({
+          tagName: 'h1',
+          content: 'Тест по програмированию',
+          parentElement: body
+        });
+
+        var ol = app.createElement({
+          tagName: 'ol',
+          parentElement: body
+        });
+
+        app.generateQuestions(3, 3);
+
+        var submit = app.createElement({
+           tagName: 'input',
+           inputType: 'submit',
+           content: 'Проверить мои результаты',
+           parentElement: ol
+        });
       }
     };
-  }
-}
-
-
-  var body = document.querySelector('body');
-
-  app.createElement({
-    tagName: 'h1',
-    content: 'Тест по програмированию',
-    parentElement: body
-  });
-
-  var form = app.createElement({
-    tagName: 'form',
-    parentElement: body
-  });
-
-  app.generateQuestions(3, 3);
-
-  var submit = app.createElement({
-     tagName: 'input',
-     inputType: 'submit',
-     content: 'Проверить мои результаты',
-     parentElement: form
-  });
+    
+  app.initialize();
 
   submit.classList.add('submit');
   submit.setAttribute('value', 'Проверить мои результаты')
