@@ -41,9 +41,9 @@
         });
         
         label.insertAdjacentElement('afterBegin', checkbox);
-      },
+      }
 
-      initialize: function() {
+       function initialize() {
         var body = document.querySelector('body');
 
         app.createElement({
@@ -57,7 +57,7 @@
           parentElement: body
         });
 
-        app.generateQuestions(3, 3);
+         app.generateQuestions(3, 3);
 
         var submit = app.createElement({
            tagName: 'input',
@@ -66,12 +66,16 @@
            parentElement: ol
         });
       }
+        submit.classList.add('submit');
+        submit.setAttribute('value', 'Проверить мои результаты')
     };
-    
-  app.initialize();
+   app.initialize();
+  
+  }
 
-  submit.classList.add('submit');
-  submit.setAttribute('value', 'Проверить мои результаты')
+}
+
+  
   
 
 
