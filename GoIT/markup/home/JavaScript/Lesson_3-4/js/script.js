@@ -19,7 +19,35 @@
       }
         return element;
     },
+
+    initialize: function() {
+      var body = document.querySelector('body');
+
+      app.createElement({
+        tagName: 'h1',
+        content: 'Тест по програмированию',
+        parentElement: body
+      });
+
+      var ol = app.createElement({
+        tagName: 'ol',
+        parentElement: body
+      });
+
+      app.generateQuestions(3, 3);
+
+      var submit = app.createElement({
+         tagName: 'input',
+         inputType: 'submit',
+         content: 'Проверить мои результаты',
+         parentElement: ol
+      });
+
+      submit.classList.add('submit');
+      submit.setAttribute('value', 'Проверить мои результаты');
     
+    },
+     
     generateQuestions: function(guestionsAmount, answersAmount) { 
       for (var i = 0; i < guestionsAmount; i++) {
         var Question = this.createElement({
@@ -42,38 +70,11 @@
         
         label.insertAdjacentElement('afterBegin', checkbox);
       }
-
-       function initialize() {
-        var body = document.querySelector('body');
-
-        app.createElement({
-          tagName: 'h1',
-          content: 'Тест по програмированию',
-          parentElement: body
-        });
-
-        var ol = app.createElement({
-          tagName: 'ol',
-          parentElement: body
-        });
-
-         app.generateQuestions(3, 3);
-
-        var submit = app.createElement({
-           tagName: 'input',
-           inputType: 'submit',
-           content: 'Проверить мои результаты',
-           parentElement: ol
-        });
-      }
-        submit.classList.add('submit');
-        submit.setAttribute('value', 'Проверить мои результаты')
     };
-   app.initialize();
-  
   }
-
 }
+
+app.initialize();
 
   
   
